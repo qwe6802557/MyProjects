@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd9bde00-59ce-4e5b-b64c-6dd07974454f" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-news-front/src/public/images/newsbanner1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front/my-news-front" />
+  </component>
+  <component name="ProjectId" id="1YLFf1KfekTKsb7D0VUqMLKeNYp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\admin\my-news-admin\public\images\top" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\public\images" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\components\register" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\components" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\public\images" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\admin\my-news-admin\public\images\banner" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\admin\my-news-admin\public\images" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\api" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\untils" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd9bde00-59ce-4e5b-b64c-6dd07974454f" name="默认更改列表" comment="" />
+      <created>1582714066778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582714066778</updated>
+      <workItem from="1582714069077" duration="1669000" />
+      <workItem from="1582715871608" duration="3401000" />
+      <workItem from="1582720715490" duration="2286000" />
+      <workItem from="1582723206038" duration="3952000" />
+      <workItem from="1582732722114" duration="411000" />
+      <workItem from="1582733186794" duration="23000" />
+      <workItem from="1582733239513" duration="3098000" />
+      <workItem from="1582736363211" duration="2024000" />
+      <workItem from="1582818309613" duration="9569000" />
+      <workItem from="1582905703229" duration="5247000" />
+      <workItem from="1582911199270" duration="3586000" />
+      <workItem from="1582953526169" duration="54000" />
+      <workItem from="1582966633798" duration="6658000" />
+      <workItem from="1582993960060" duration="5415000" />
+      <workItem from="1583039017090" duration="5079000" />
+      <workItem from="1583046788087" duration="19992000" />
+      <workItem from="1583069992726" duration="3978000" />
+      <workItem from="1583075516500" duration="635000" />
+      <workItem from="1583250602894" duration="7748000" />
+      <workItem from="1583295525428" duration="9759000" />
+      <workItem from="1583311975980" duration="2674000" />
+      <workItem from="1583315489527" duration="12615000" />
+      <workItem from="1583336276604" duration="9248000" />
+      <workItem from="1583381595840" duration="39177000" />
+      <workItem from="1583467788381" duration="15362000" />
+      <workItem from="1583512601133" duration="13000" />
+      <workItem from="1583563338635" duration="124000" />
+      <workItem from="1583581600250" duration="2873000" />
+      <workItem from="1583596786060" duration="2462000" />
+      <workItem from="1583599686691" duration="6000" />
+      <workItem from="1584262749905" duration="611000" />
+      <workItem from="1584340909687" duration="9000" />
+      <workItem from="1584594834699" duration="299000" />
+      <workItem from="1584683983868" duration="1496000" />
+      <workItem from="1585384096702" duration="1212000" />
+      <workItem from="1586014295828" duration="1932000" />
+      <workItem from="1586180448671" duration="1336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="780" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583253041374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="780" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583253041374" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582734149549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582734149549" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582827245504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582827245504" />
+    <state x="644" y="253" width="746" height="600" key="find.popup" timestamp="1583415467727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="253" width="746" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583415467727" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583337657990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583337657990" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583498083227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583498083227" />
+  </component>
+</project>

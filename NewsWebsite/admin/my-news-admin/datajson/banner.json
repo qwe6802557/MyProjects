@@ -1,0 +1,27 @@
+{
+  "banners": [{
+    "name": "banner1",
+    "src": "/public/images/banner/newsbanner1.png"
+  }, {
+    "name": "banner2",
+    "src": "/public/images/banner/newsbanner2.jpg"
+  }, {
+    "name": "banner3",
+    "src": "/public/images/banner/newsbanner3.jpg"
+  }, {
+    "name": "banner4",
+    "src": "/public/images/banner/newsbanner4.jpg"
+  }, {
+    "name": "banner5",
+    "src": "/public/images/banner/newsbanner5.png"
+  }, {
+    "name": "banner6",
+    "src": "/public/images/banner/newsbanner6.png"
+  }, {
+    "name": "banner7",
+    "src": "/public/images/banner/newsbanner7.png"
+  }, {
+    "name": "banner8",
+    "src": "/public/images/banner/newsbanner8.png"
+  }]
+}

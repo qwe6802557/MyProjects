@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37556446-ac71-4248-b72c-32f237105d2c" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/tag-project/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tag-project" />
+  </component>
+  <component name="ProjectId" id="1Z4KNurxnE1zfgjUE8Y7sL2JOnO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\tagProject\tag-project\src\public\images" />
+      <recent name="C:\Users\Administrator\Desktop\tagProject\tag-project\src\public\js" />
+      <recent name="C:\Users\Administrator\Desktop\tagProject\tag-project\src\components" />
+      <recent name="C:\Users\Administrator\Desktop\tagProject\tag-project\src\components\content-title" />
+      <recent name="C:\Users\Administrator\Desktop\tagProject\tag-project\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\tagProject\tag-project\src\views\tag" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37556446-ac71-4248-b72c-32f237105d2c" name="默认更改列表" comment="" />
+      <created>1584092889513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584092889513</updated>
+      <workItem from="1584092890720" duration="4372000" />
+      <workItem from="1584108363518" duration="1095000" />
+      <workItem from="1584112571913" duration="2039000" />
+      <workItem from="1584114709287" duration="4404000" />
+      <workItem from="1584178482572" duration="6478000" />
+      <workItem from="1584189550923" duration="158000" />
+      <workItem from="1584193635226" duration="3864000" />
+      <workItem from="1584197740052" duration="6506000" />
+      <workItem from="1584250375962" duration="10000" />
+      <workItem from="1584254032891" duration="3885000" />
+      <workItem from="1584262455796" duration="7319000" />
+      <workItem from="1584279479868" duration="175000" />
+      <workItem from="1584279679796" duration="136000" />
+      <workItem from="1584280239504" duration="1244000" />
+      <workItem from="1584281661595" duration="1061000" />
+      <workItem from="1584285959323" duration="377000" />
+      <workItem from="1584334996655" duration="3225000" />
+      <workItem from="1584342993675" duration="7618000" />
+      <workItem from="1584370838014" duration="4700000" />
+      <workItem from="1584423437776" duration="721000" />
+      <workItem from="1584431896636" duration="5994000" />
+      <workItem from="1584445561451" duration="31000" />
+      <workItem from="1584451123840" duration="1588000" />
+      <workItem from="1584460207409" duration="1139000" />
+      <workItem from="1584514356246" duration="692000" />
+      <workItem from="1584515929299" duration="3562000" />
+      <workItem from="1584524361862" duration="1352000" />
+      <workItem from="1584538710700" duration="8353000" />
+      <workItem from="1584593246055" duration="294000" />
+      <workItem from="1584603341618" duration="18985000" />
+      <workItem from="1584630826077" duration="4154000" />
+      <workItem from="1584635128387" duration="26000" />
+      <workItem from="1584688541447" duration="44000" />
+      <workItem from="1584690542254" duration="710000" />
+      <workItem from="1584701112238" duration="25000" />
+      <workItem from="1584714466956" duration="6836000" />
+      <workItem from="1584888126504" duration="7404000" />
+      <workItem from="1584939693891" duration="5000" />
+      <workItem from="1584960996117" duration="54000" />
+      <workItem from="1584964992398" duration="2624000" />
+      <workItem from="1584972878466" duration="6995000" />
+      <workItem from="1585025571759" duration="1285000" />
+      <workItem from="1585059684767" duration="10196000" />
+      <workItem from="1585109292359" duration="12307000" />
+      <workItem from="1585134268532" duration="6175000" />
+      <workItem from="1585149823738" duration="7519000" />
+      <workItem from="1585196055564" duration="43000" />
+      <workItem from="1585212568251" duration="12070000" />
+      <workItem from="1585228581116" duration="11752000" />
+      <workItem from="1585283233146" duration="10974000" />
+      <workItem from="1585301824699" duration="672000" />
+      <workItem from="1585315738258" duration="15034000" />
+      <workItem from="1585374381686" duration="1615000" />
+      <workItem from="1585387264579" duration="10725000" />
+      <workItem from="1585402243443" duration="14926000" />
+      <workItem from="1585460468204" duration="8204000" />
+      <workItem from="1585468696557" duration="4956000" />
+      <workItem from="1585478077533" duration="240000" />
+      <workItem from="1585478442685" duration="4620000" />
+      <workItem from="1585489264951" duration="11064000" />
+      <workItem from="1585543322664" duration="329000" />
+      <workItem from="1585552098785" duration="5058000" />
+      <workItem from="1585573211821" duration="3282000" />
+      <workItem from="1585579332339" duration="4385000" />
+      <workItem from="1585630503518" duration="14245000" />
+      <workItem from="1585667096528" duration="8851000" />
+      <workItem from="1585715780124" duration="1749000" />
+      <workItem from="1585725288341" duration="55000" />
+      <workItem from="1585726951704" duration="7045000" />
+      <workItem from="1585744760217" duration="610000" />
+      <workItem from="1585745757660" duration="6878000" />
+      <workItem from="1585756128476" duration="957000" />
+      <workItem from="1585758006991" duration="1744000" />
+      <workItem from="1585803800565" duration="8000" />
+      <workItem from="1585804591553" duration="1991000" />
+      <workItem from="1585818020182" duration="321000" />
+      <workItem from="1585820790766" duration="3887000" />
+      <workItem from="1585830330258" duration="2362000" />
+      <workItem from="1585835811078" duration="12792000" />
+      <workItem from="1585918890455" duration="9337000" />
+      <workItem from="1586008791497" duration="2196000" />
+      <workItem from="1586106065704" duration="1674000" />
+      <workItem from="1586107912334" duration="10000" />
+      <workItem from="1586184489625" duration="1288000" />
+      <workItem from="1586186559608" duration="15000" />
+      <workItem from="1586188578922" duration="3583000" />
+      <workItem from="1586234035810" duration="617000" />
+      <workItem from="1586270536325" duration="1426000" />
+      <workItem from="1586273333026" duration="930000" />
+      <workItem from="1586850085876" duration="4918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="795" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584891489591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584891489591" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584094235916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584094235916" />
+    <state x="566" y="296" key="EditFileWatcherDialog" timestamp="1584202347142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="566" y="296" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584202347142" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585469493442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585469493442" />
+    <state x="320" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585582596882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="320" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585582596882" />
+    <state x="644" y="253" width="632" height="534" key="find.popup" timestamp="1585839147003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="253" width="632" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585839147003" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1585407204731">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585407204731" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585838245520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585838245520" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/tag-project/src/views/origin/words/Words.vue</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/tag-project/src/api/user/index.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

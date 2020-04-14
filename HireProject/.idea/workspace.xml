@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9925b2a5-a7ef-4908-ae63-62fa1eabc8a3" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/resume-website/src/untils/memoryUntil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-website/src/untils/storeUntil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/resume-website" />
+  </component>
+  <component name="ProjectId" id="1YnY7VLiWz2EeOKhP9dUvo14ylQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resume-website/src/views/editor/certificate" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\webSite\resume-website\src\views\editor\certificate" />
+      <recent name="C:\Users\Administrator\Desktop\webSite\resume-website\src\views\editor" />
+      <recent name="C:\Users\Administrator\Desktop\webSite\resume-website\src\components" />
+      <recent name="C:\Users\Administrator\Desktop\webSite\resume-website\src\public\css" />
+      <recent name="C:\Users\Administrator\Desktop\webSite\resume-website\src\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\webSite\resume-website\src\views\register" />
+      <recent name="C:\Users\Administrator\Desktop\webSite\resume-website\src\api" />
+      <recent name="C:\Users\Administrator\Desktop\webSite\resume-website\src\public\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9925b2a5-a7ef-4908-ae63-62fa1eabc8a3" name="默认更改列表" comment="" />
+      <created>1583579657952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583579657952</updated>
+      <workItem from="1583579659464" duration="8630000" />
+      <workItem from="1583596741792" duration="2915000" />
+      <workItem from="1583599695197" duration="1365000" />
+      <workItem from="1583601911749" duration="67000" />
+      <workItem from="1583660152354" duration="1703000" />
+      <workItem from="1583666735743" duration="4003000" />
+      <workItem from="1583676604032" duration="8227000" />
+      <workItem from="1583731876773" duration="1796000" />
+      <workItem from="1583734879660" duration="5770000" />
+      <workItem from="1583755013024" duration="833000" />
+      <workItem from="1583759999725" duration="12498000" />
+      <workItem from="1583814941540" duration="59000" />
+      <workItem from="1583816218132" duration="5464000" />
+      <workItem from="1583853905669" duration="7873000" />
+      <workItem from="1583902229801" duration="733000" />
+      <workItem from="1583911394842" duration="1797000" />
+      <workItem from="1583940832132" duration="4227000" />
+      <workItem from="1583992378135" duration="65000" />
+      <workItem from="1583993234487" duration="3074000" />
+      <workItem from="1584019309766" duration="7157000" />
+      <workItem from="1584093209771" duration="3576000" />
+      <workItem from="1584109461374" duration="3106000" />
+      <workItem from="1584250387472" duration="8655000" />
+      <workItem from="1584269003425" duration="203000" />
+      <workItem from="1584282725746" duration="135000" />
+      <workItem from="1584339830413" duration="783000" />
+      <workItem from="1584340961226" duration="81000" />
+      <workItem from="1584351549883" duration="9667000" />
+      <workItem from="1584375867679" duration="863000" />
+      <workItem from="1584376847377" duration="26000" />
+      <workItem from="1584423493859" duration="3598000" />
+      <workItem from="1584430805255" duration="223000" />
+      <workItem from="1584432281813" duration="1210000" />
+      <workItem from="1584433806025" duration="1255000" />
+      <workItem from="1584515050047" duration="877000" />
+      <workItem from="1584524660535" duration="657000" />
+      <workItem from="1584546352986" duration="154000" />
+      <workItem from="1584635165495" duration="2744000" />
+      <workItem from="1584680026670" duration="50000" />
+      <workItem from="1584691371998" duration="120000" />
+      <workItem from="1584691507358" duration="13215000" />
+      <workItem from="1584714066438" duration="14000" />
+      <workItem from="1584769478537" duration="1033000" />
+      <workItem from="1584770536392" duration="5205000" />
+      <workItem from="1584804239252" duration="2899000" />
+      <workItem from="1584853424238" duration="20127000" />
+      <workItem from="1584888115627" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="796" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583856386450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="796" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583856386450" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584357525074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584357525074" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1583580026226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583580026226" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1583580026226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583580026226" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1583580026226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583580026226" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1583580026226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583580026226" />
+    <state x="644" y="253" width="746" height="600" key="find.popup" timestamp="1584700310779">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="253" width="746" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584700310779" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1584881401207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584881401207" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584881124039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584881124039" />
+  </component>
+</project>
