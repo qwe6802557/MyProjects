@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FurWebsite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FurWebsite/fur-admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HireProject/resume-website" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NewsWebsite/front/my-news-front" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TagProject/tag-project" vcs="Git" />
+  </component>
+</project>
