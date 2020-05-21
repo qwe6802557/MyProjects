@@ -30,9 +30,27 @@ const Goods = db.define('goods', {
         defaultValue: ''
     },
     goodsPic: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(255),
         allowNull: false,
         field: 'goodsPic'
+    },
+    goodsNum: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+        field: 'goodsNum',
+        defaultValue: 0
+    },
+    isComment: {
+        type: Sequelize.ENUM(['0', '1']),  // 是否为推荐 0 不推荐 1 推荐
+        allowNull: true,
+        field: 'isComment',
+        defaultValue: '0'
+    },
+    isOnSell: {
+        type: Sequelize.ENUM(['0', '1']),  // 是否上架 0 上架 1 下架
+        allowNull: true,
+        field: 'isOnSell',
+        defaultValue: '0'
     }
 });
 

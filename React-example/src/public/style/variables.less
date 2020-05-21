@@ -1,0 +1,219 @@
+/*
+全局样式变量
+*/
+
+//模块容器
+@g-container-background:#fff;//背景颜色
+@g-container-box-shadow:0 0 4px 1px #ebf0fa;//背景阴影
+@g-container-border-top:solid 4px #cedef2;//上边框颜色;//上边框颜色
+@g-container-title-color:#7d8fb2;//标题颜色
+@g-container-title-size:16px;//标题大小
+@g-container-iconfont-color:#c2d2f2;//容器内的图标颜色
+@g-container-iconfont-bg-background:#fafcff;//容器内背景类图标背景颜色
+@g-container-iconfont-bg-color:#f2f6ff;//容器内背景类图标字体颜色
+@g-container-iconfont-add-color: #ff8080; //容器内背景类图标加号颜色
+@g-container-iconfont-reduce-color: #8fcc70; //容器内背景类图标减号颜色
+@g-container-split-border:#f5f5f5;//容器内分割线颜色
+
+//文字
+@g-font-base-color:#5c7099;//基本字体颜色
+@g-font-base-size:14px;//基本字体大小
+@g-font-em-color_1: #4174d9;//强调字体1颜色
+@g-font-em-size_1:30px;//强调字体1大小
+@g-font-em-color_2:#4c5e80;//强调字体2颜色
+@g-font-em-size_2:16px;//强调字体2大小
+@g-font-em-color_3:#4c5e80;//强调字体3颜色
+@g-font-em-size_3:18px;//强调字体3大小
+@g-font-em-family_3: Arial;//强调字体3类型
+@g-font-unit-size:14px;//强调字体下单位字体
+@g-font-a-color:#4174d9;//a标签颜色
+@g-font-valid-color:#ffb3b3;//验证报错颜色
+
+//按钮
+@g-btn-default-color:#4c5e80;//默认按钮颜色
+@g-btn-default-background:#fff;//默认按钮背景颜色
+@g-btn-default-size:16px;//默认按钮字体大小
+@g-btn-default-border:solid 1px #dae2f2;//默认按钮边框颜色
+@g-btn-default-active-border:solid 1px #b6caf2;//默认按钮点击边框颜色
+@g-btn-default-active-color:#4c5e80;//默认按钮点击边框颜色
+
+@g-btn-primary-color:#fff;//主按钮颜色
+@g-btn-primary-background:#80aaff;//主按钮背景颜色
+@g-btn-primary-size:16px;//主按钮字体大小
+@g-btn-primary-border:solid 1px #80aaff;//主按钮边框颜色
+@g-btn-primary-active-border:solid 1px #6699ff;//默认按钮点击边框颜色
+@g-btn-primary-active-background:#6699ff;//默认按钮点击边框颜色
+
+@g-btn-disabled-color:#fff;//禁用按钮颜色
+@g-btn-disabled-background:#e6e6e6;//禁用按钮背景颜色
+@g-btn-disabled-size:16px;//禁用按钮字体大小
+@g-btn-disabled-border:solid 1px #e6e6e6;//禁用按钮边框颜色
+
+//小按钮
+@g-small-btn-default-color:#4c5e80;//默认small按钮颜色
+@g-small-btn-default-background:#fff;//默认small按钮背景颜色
+@g-small-btn-default-size:14px;//默认small按钮字体大小
+@g-small-btn-default-border:solid 1px #dae2f2;//默认small按钮边框颜色
+
+@g-small-btn-primary-color:#fff;//主small按钮颜色
+@g-small-btn-primary-background:#91b2f2;//主small按钮背景颜色
+@g-small-btn-primary-size:14px;//主small按钮字体大小
+@g-small-btn-primary-border:solid 1px #91b2f2;//主small按钮边框颜色
+
+@g-small-btn-em-color:#4174d9;//强调small按钮颜色
+@g-small-btn-em-background:#fff;//强调small按钮背景颜色
+@g-small-btn-em-size:14px;//强调small按钮字体大小
+@g-small-btn-em-border:solid 1px #bfd4ff;//强调small按钮边框颜色
+@g-small-btn-em-active-border:solid 1px #99bbff;//强调small按钮边框颜色
+@g-small-btn-em-active-color:#4174d9;//强调small按钮边框颜色
+
+@g-small-btn-disabled-color:#e6e6e6;//禁用small按钮颜色
+@g-small-btn-disabled-background:#fff;//禁用small按钮背景颜色
+@g-small-btn-disabled-size:14px;//禁用small按钮字体大小
+@g-small-btn-disabled-border:solid 1px #e6e6e6;//禁用small按钮边框颜色
+
+@g-small-btn-ie-close-color:#fff;//ie8tips关闭按钮颜色
+@g-small-btn-ie-close-background:#e6a995;//ie8tips按钮背景颜色
+@g-small-btn-ie-close-size:14px;//ie8tips按钮字体大小
+@g-small-btn-ie-close-border:solid 1px #fff;//禁用small按钮边框颜色
+
+//关联按钮
+@g-link-btn-default-color:#8f9fbf;//默认关联按钮颜色
+@g-link-btn-default-background:#fff;//默认关联按钮背景颜色
+@g-link-btn-default-size:14px;//默认关联按钮字体大小
+@g-link-btn-default-border:solid 1px #dae2f2;//默认关联按钮边框颜色
+
+@g-link-btn-active-color:#fff;//选中关联按钮颜色
+@g-link-btn-active-background:#91b2f2;//选中关联按钮背景颜色
+@g-link-btn-active-size:14px;//选中关联按钮字体大小
+@g-link-btn-active-border:solid 1px #91b2f2;//选中关联按钮边框颜色
+
+@g-line-link-btn-default-color:#adbcd9;//默认线条关联按钮颜色
+@g-line-link-btn-default-background:#fff;//默认线条关联按钮背景颜色
+@g-line-link-btn-default-size:16px;//默认线条关联按钮字体大小
+
+@g-line-link-btn-active-color:#7d8fb2;//选中线条关联按钮颜色
+@g-line-link-btn-active-background:#fff;//选中线条关联按钮背景颜色
+@g-line-link-btn-active-size:16px;//选中线条关联按钮字体大小
+@g-line-link-btn-active-border:#4174d9;//选中线条关联按钮边框
+
+//色块
+@g-lump-default-background:#cce1ff;//默认色块颜色
+@g-lump-default-color:#fff;//默认色块字体颜色
+
+@g-lump-primary-background:#81b5ff;//主色块颜色
+@g-lump-primary-color:#fff;//主色块字体颜色
+
+@g-lump-background_1:#e6bd95;//色块颜色1
+@g-lump-background_1_light:#f6dfc9;//色块颜色1浅色
+@g-lump-color_1:#fff;//色块字体颜色1
+
+@g-lump-background_2:#8ae6c7;//色块颜色2
+@g-lump-background_2_light:#b1e3d4;//色块颜色2浅色
+@g-lump-color_2:#fff;//色块字体颜色2
+
+@g-lump-background_3:#ffd599;//默认色块颜色3
+@g-lump-color_3:#fff;//色块字体颜色3
+
+@g-lump-background_4:#80b5ff;//默认色块颜色4
+@g-lump-color_4:#fff;//色块字体颜色4
+
+//提交表单
+@g-table-form-thead-color:#5c7099;//表单标题颜色
+@g-table-form-title-color:#8f9fbf;//表单标题颜色
+@g-table-form-des-color:#4c5e80;//表单描述颜色
+
+//list表单
+@g-table-form-thead-background:#e6eaf2;//表单thead背景颜色
+@g-table-form-thead-color:#5c7099;//表单thead字体颜色
+@g-table-form-tbody-color:#5c7099;//表单tbody字体颜色
+@g-table-form-tbody-background-even:#f0f2f7;//表单tbody偶数行背景颜色
+@g-table-form-tbody-tr_chlidren-border:1px solid #cfd6e5;//tr.chlidren边框
+@g-table-form-tbody-tr_chlidren-background:#f5f2f2;//tr.chlidren背景
+
+
+//遮罩
+@g-shade-background:rgba(0,0,0,.3);//背景颜色
+
+
+//表单控件、input、select、textrea
+@w-control-background:#fff;//控件背景颜色
+@w-control-color:#4c5e80;//控件字体颜色
+@w-control-border:solid 1px #dae2f2;//控件边框
+@w-control-placeholder-color:#ccc;//控件placeholder颜色
+@w-control-focus-color:#b6caf2;//控件获取焦点颜色
+@w-select-icon-color:#c3cfe6;//控件icon颜色
+
+
+//翻页
+@w-page-bar-btn-background:#fff;//翻页按钮背景颜色
+@w-page-bar-btn-color:#adbcd9;//翻页按钮字体颜色
+@w-page-bar-btn-border:1px solid #bfd4ff;//翻页按钮字体边框
+@w-page-bar-btn-background-hover:#eee;//翻页按钮获取焦点背景颜色
+@w-page-bar-btn-border-hover:solid 1px #ddd;//翻页按钮获取焦点背景颜色
+@w-page-bar-btn-color-hover:#23527c;//翻页按钮获取焦点背景颜色
+
+@w-page-bar-btn-disabled-background:#e6e6e6;//翻页按钮禁止背景颜色
+@w-page-bar-btn-disabled-color:#fff;//翻页按钮禁止字体颜色
+@w-page-bar-btn-disabled-border:solid 1px #e6e6e6;//翻页按钮禁止边框颜色
+
+//弹窗
+@w-popup-background:#fff;//背景颜色
+@w-popup-color:#7d8fb2;//字体颜色
+@w-popup-body-background:#f5f7fc;//body背景颜色
+@w-popup-split-border:#e5eeff;//分割线颜色
+@w-popup-yzm-color:#4174d9;//发送验证码字体颜色
+
+//进度条
+@w-plan-container-background:#f7faff;//进度条容器背景颜色
+@w-plan-background:#e1e9fa;//进度条背景颜色
+@w-plan-value-background:#4174d9;//进度条值背景颜色
+@w-plan2-background:#f1f0fa;//进度条背景颜色
+@w-plan2-value-background:#9d9df2;//进度条值背景颜色
+
+//小进度条
+@w-small-plan-background:#e1e9fa;//小进度条背景颜色
+@w-small-plan-value-background:#4174d9;//小进度条值背景颜色
+
+//ie8 tips
+@w-ie8-tips-background:#e6a995;//ie8以下浏览器tips背景色
+@w-ie8-tips-color:#fff;//ie8以下浏览器tips文字颜色
+
+//页面容器
+@w-page-main-background:#edf0f5;//页面底色
+
+@w-page-container-head-deputy-background:#fff;//head导航背景颜色
+@w-page-container-head-deputy-color:#adbcd9;//head导航文字颜色
+@w-page-container-head-deputy-border:solid 1px #ededed;//head导航边框颜色
+@w-page-container-head-deputy-active-color:#fff;//head导航选中文字颜色
+@w-page-container-head-deputy-active-border:solid 1px #ccddff;//head导航选中文字边框
+@w-page-container-head-deputy-active-background:#91b2f2;//head导航选中背景颜色
+@w-page-container-head-versions-background:#475267;//head版本号背景颜色
+@w-page-container-head-versions-color:#fff;//head版本号文字颜色
+
+@w-page-container-menu-width:200px;//侧边栏宽度
+@w-page-container-menu-border-width:1px;//侧边栏边框宽度
+@w-page-container-menu-background:#fff;//侧边栏背景颜色
+@w-page-container-menu-color:#adbcd9;//侧边栏背景文字颜色
+@w-page-container-menu-icon-color:inherit;//图标颜色
+@w-page-container-menu-border:solid 1px #ededed;//侧边栏边框颜色
+@w-page-container-menu-active-color:#4174d9;//侧边栏选中文字颜色
+@w-page-container-menu-active-background:#fff;//侧边栏选中文字背景颜色
+
+//日历
+@w-layui-this-background:#91b2f2;//日历选中背景色
+@w-layui-this-thead-background:#f5f7fa;//日历head背景色
+@w-layui-laydate-header-hover-color:#91b2f2;//head获取角点文字颜色
+@w-layui-input-icon-color:#c3cfe6;//输入框icon字体颜色
+
+//tips
+@w-tips-background:#fff;//tips背景颜色
+@w-tips-color:#ffa98c;//tips字体颜色
+@w-tips-border:solid 1px #ffa98c;//tops边框颜色
+
+//loading
+@w-loading-broder:5px solid #91b2f2;
+
+//toplist
+@w-top-list-unit-color:#5c7099;
+

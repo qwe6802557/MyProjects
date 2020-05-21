@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aea5e2bf-1296-4147-8bb9-829c835599e7" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/classmate-front/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classmate-front/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classmate-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/classmate-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classmate-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/classmate-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classmate-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/classmate-front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classmate-front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/classmate-front/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/classmate-front" />
+  </component>
+  <component name="ProjectId" id="1aoMFetxVrQUZTrGE5Xgf3kuuNE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyProject/FriendsWebsite" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\ClassmateRecord\classmate-front\src\components\common" />
+      <recent name="C:\Users\Administrator\Desktop\ClassmateRecord\classmate-record\src\untils" />
+      <recent name="C:\Users\Administrator\Desktop\ClassmateRecord\classmate-record\src\api" />
+      <recent name="C:\Users\Administrator\Desktop\ClassmateRecord\classmate-record\src" />
+      <recent name="C:\Users\Administrator\Desktop\ClassmateRecord\classmate-record\src\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\ClassmateRecord\classmate-record\src\components" />
+      <recent name="C:\Users\Administrator\Desktop\ClassmateRecord\classmate-record\src\public" />
+      <recent name="C:\Users\Administrator\Desktop\ClassmateRecord\classmate-record\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aea5e2bf-1296-4147-8bb9-829c835599e7" name="默认更改列表" comment="" />
+      <created>1587397390067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587397390067</updated>
+      <workItem from="1587397391403" duration="1997000" />
+      <workItem from="1587399406897" duration="4129000" />
+      <workItem from="1587443362812" duration="6000" />
+      <workItem from="1587481653671" duration="7236000" />
+      <workItem from="1587634086277" duration="10157000" />
+      <workItem from="1587653211458" duration="308000" />
+      <workItem from="1587654539147" duration="9074000" />
+      <workItem from="1587704048345" duration="6163000" />
+      <workItem from="1587712336661" duration="70000" />
+      <workItem from="1587712883306" duration="754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="796" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587483381131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="796" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587483381131" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587399475754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587399475754" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1587705550566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587705550566" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587660836777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587660836777" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1587705550566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587705550566" />
+    <state x="644" y="253" width="632" height="534" key="find.popup" timestamp="1587658749743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="253" width="632" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587658749743" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587708007524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587708007524" />
+  </component>
+</project>

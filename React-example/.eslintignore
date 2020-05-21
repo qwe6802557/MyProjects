@@ -1,0 +1,21 @@
+# ESLint 忽略特定的文件和目录
+/node_modules/**
+
+/config/**
+
+/build/**
+
+/public/**
+
+/scripts/**
+
+src/App.test.js
+
+src/serviceWorker.js
+
+src/public
+
+
+
+
+

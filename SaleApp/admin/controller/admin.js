@@ -100,6 +100,26 @@ class AdminController {
 
     }
 
+    static async getGoodsList (ctx) {
+        try {
+            const result = await AdminService.getGoodsList(ctx);
+
+            ctx.body = {
+                code: 0,
+                message: '查询成功!',
+                messageBody: result,
+            }
+        }catch (e) {
+
+            ctx.body = {
+                code: 5,
+                message: '查询失败!',
+                messageBody: null,
+            };
+            throw e;
+        }
+    }
+
     static async getAllOrder (ctx) {
         try {
             const result = await GoodsService.getAllOrder(ctx);
@@ -273,6 +293,44 @@ class AdminController {
             throw e;
         }
     };
+
+    static async handleOrder (ctx) {
+        try {
+            await AdminService.handleOrder(ctx);
+
+            ctx.body = {
+                code: 0,
+                message: '发货成功!',
+                messageBody: null
+            };
+        }catch (e) {
+            ctx.body = {
+                code: 5,
+                message: '发货失败!',
+                messageBody: null
+            };
+            throw e;
+        }
+    };
+
+    static async handleOnOrOffSell (ctx) {
+        try {
+            await AdminService.handleOnOrOffSell(ctx);
+
+            ctx.body = {
+                code: 0,
+                message: '操作成功!',
+                messageBody: null
+            };
+        }catch (e) {
+            ctx.body = {
+                code: 5,
+                message: '操作失败!',
+                messageBody: null
+            };
+            throw e;
+        }
+    }
 }
 
 module.exports = AdminController;

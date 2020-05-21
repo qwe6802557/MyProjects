@@ -319,6 +319,126 @@ class GoodsController {
             throw e;
         }
     }
+
+    static async getCommentGoods (ctx) {
+        try {
+            const result = await GoodsService.getCommentGoods(ctx);
+
+            ctx.body = {
+                code: 0,
+                message: '查询成功!',
+                messageBody: result,
+            }
+        }catch (e) {
+
+            ctx.body = {
+                code: 5,
+                message: '查询失败!',
+                messageBody: null,
+            };
+            throw e;
+        }
+    }
+
+    static async confirmOrder (ctx) {
+        try {
+            await GoodsService.confirmOrder(ctx);
+
+            ctx.body = {
+                code: 0,
+                message: '收货成功!',
+                messageBody: null,
+            }
+        }catch (e) {
+
+            ctx.body = {
+                code: 5,
+                message: '收货失败!',
+                messageBody: null,
+            };
+            throw e;
+        }
+    }
+
+    static async handleOrBackOrder (ctx) {
+        try {
+            await GoodsService.handleOrBackOrder(ctx);
+
+            ctx.body = {
+                code: 0,
+                message: '申请成功!',
+                messageBody: null,
+            }
+        }catch (e) {
+
+            ctx.body = {
+                code: 5,
+                message: '申请失败!',
+                messageBody: null,
+            };
+            throw e;
+        }
+    }
+
+    static async checkHandleOrder (ctx) {
+        try {
+            await GoodsService.checkHandleOrder(ctx);
+
+            ctx.body = {
+                code: 0,
+                message: '处理成功!',
+                messageBody: null,
+            }
+        }catch (e) {
+
+            ctx.body = {
+                code: 5,
+                message: '处理失败!',
+                messageBody: null,
+            };
+            throw e;
+        }
+    }
+
+    static async getBackOrders (ctx) {
+        try {
+            const result = await GoodsService.getBackOrders();
+
+            ctx.body = {
+                code: 0,
+                message: '查询成功!',
+                messageBody: result,
+            }
+        }catch (e) {
+
+            ctx.body = {
+                code: 5,
+                message: '查询失败!',
+                messageBody: null,
+            };
+            throw e;
+        }
+    }
+
+    static async commentGoods (ctx) {
+        try {
+            await GoodsService.commentGoods(ctx);
+
+            ctx.body = {
+                code: 0,
+                message: '评论成功!',
+                messageBody: null,
+            }
+        }catch (e) {
+
+            ctx.body = {
+                code: 5,
+                message: '评论失败!',
+                messageBody: null,
+            };
+            throw e;
+        }
+    }
 }
 
 module.exports = GoodsController;

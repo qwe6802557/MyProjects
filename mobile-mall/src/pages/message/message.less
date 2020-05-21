@@ -1,0 +1,92 @@
+#message{
+    background: #F6F6F6;
+    height: 100vh;
+    .help-head{
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 .3rem;
+        position: relative;
+        .arrow-left{
+            position: absolute;
+            left: .3rem;
+            svg{
+                width: .5rem;
+                height: .5rem;
+                margin-top: .1rem;
+            }
+        }
+        span{
+            font-size:0.36rem;
+            font-weight:800;
+            color:rgba(51,51,51,1);
+            line-height:36px;
+            text-align: center;
+            flex: 1;
+            margin-bottom: 0;
+        }
+    }
+    .help-content{
+        padding: 0 .3rem;
+        .content-p{
+            padding: .3rem;
+            padding-bottom: .22rem;
+            h3{
+                font-size:.3rem;
+                font-weight:bold;
+                color:rgba(34,34,34,1);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                img{
+                    width: .36rem;
+                    height: .36rem;
+                    margin-right: .15rem;
+                }
+                span{
+                    position: relative;
+                    &:after{
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        top: 2px;
+                        right: -8px;
+                        width: .08rem;
+                        height: .08rem;
+                        background-color: red;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            font-size: .28rem;
+            color:rgba(100,100,100,1);
+            background: #FFFFFF;
+            border-radius: 8px;
+            p{
+                font-size:.24rem;
+                font-weight:500;
+                color:rgba(153,153,153,1);
+                line-height:.36rem;
+            }
+        }
+        .content-button{
+            font-size:.24rem;
+            font-weight:500;
+            color:rgba(153,153,153,1);
+            padding-top: .22rem;
+            text-align: right;
+            border-top: 1px rgba(204,204,204,.5) solid;
+            .toDetail{
+                margin-right: .3rem;
+            }
+        }
+        .content-title{
+            text-align: center;
+            padding: .2rem 0;
+            font-size:.24rem;
+            font-weight:500;
+            color:rgba(147,153,165,1);
+        }
+    }
+}

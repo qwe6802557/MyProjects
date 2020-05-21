@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44e1bfbc-7641-44d1-99ca-9bb5abf38579" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/illness-front/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/illness-front/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illness-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/illness-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illness-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/illness-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illness-front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/illness-front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illness-front/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illness-front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/illness-front/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/illness-front" />
+  </component>
+  <component name="ProjectId" id="1bWeESr1JJXk3X8EpaDC9Xwiydu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qiye" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\illness-front\illness-front\src\public\images" />
+      <recent name="C:\Users\Administrator\Desktop\illness-front\illness-front\src\assets" />
+      <recent name="C:\Users\Administrator\Desktop\illness-front\illness-front" />
+      <recent name="C:\Users\Administrator\Desktop\illness-front\illness-front\src\untils" />
+      <recent name="C:\Users\Administrator\Desktop\illness-front\illness-front\src\router" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44e1bfbc-7641-44d1-99ca-9bb5abf38579" name="默认更改列表" comment="" />
+      <created>1588752164847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588752164847</updated>
+      <workItem from="1588752166160" duration="6777000" />
+      <workItem from="1588776872416" duration="245000" />
+      <workItem from="1588777581931" duration="820000" />
+      <workItem from="1588779614108" duration="7121000" />
+      <workItem from="1588825965064" duration="14329000" />
+      <workItem from="1588865391542" duration="195000" />
+      <workItem from="1588865633917" duration="681000" />
+      <workItem from="1588866330922" duration="150000" />
+      <workItem from="1588953329039" duration="6985000" />
+      <workItem from="1588996018851" duration="16242000" />
+      <workItem from="1589035679745" duration="541000" />
+      <workItem from="1589037159691" duration="6435000" />
+      <workItem from="1589086736598" duration="38000" />
+      <workItem from="1589087019846" duration="590000" />
+      <workItem from="1589093262849" duration="10508000" />
+      <workItem from="1589118944206" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1408" y="464" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1588865704099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1408" y="464" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588865704099" />
+    <state x="1214" y="327" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588755361086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1214" y="327" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588755361086" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588866479846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588866479846" />
+    <state x="703" y="198" key="SettingsEditor" timestamp="1588866313262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="703" y="198" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588866313262" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588783832099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588783832099" />
+    <state x="644" y="253" width="632" height="534" key="find.popup" timestamp="1588760676371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="253" width="632" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588760676371" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1588850264078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588850264078" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588954780203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588954780203" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/illness-front/src/App.vue</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

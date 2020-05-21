@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c96cb873-0f62-41b1-a38c-f9554e16761d" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/market-mall/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-mall/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-mall/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/market-mall/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-mall/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/market-mall/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-mall/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/market-mall/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-mall/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/market-mall/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/market-mall" />
+  </component>
+  <component name="ProjectId" id="1blZwrjWAnixflBIrWjYB6TolcI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/market-mall/src/pages" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\market-mall\market-mall\src\pages" />
+      <recent name="C:\Users\Administrator\Desktop\market-mall\market-mall\src\pages\layout" />
+      <recent name="C:\Users\Administrator\Desktop\market-mall\market-mall\src\components" />
+      <recent name="C:\Users\Administrator\Desktop\market-mall\market-mall\src\public\images" />
+      <recent name="C:\Users\Administrator\Desktop\market-mall\market-mall\src\pages\open" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c96cb873-0f62-41b1-a38c-f9554e16761d" name="默认更改列表" comment="" />
+      <created>1589208881416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589208881416</updated>
+      <workItem from="1589208883427" duration="7712000" />
+      <workItem from="1589269351433" duration="2946000" />
+      <workItem from="1589275165330" duration="12035000" />
+      <workItem from="1589291481804" duration="28000" />
+      <workItem from="1589291567626" duration="208000" />
+      <workItem from="1589292395366" duration="6894000" />
+      <workItem from="1589342269397" duration="9471000" />
+      <workItem from="1589356761874" duration="5679000" />
+      <workItem from="1589363244446" duration="1750000" />
+      <workItem from="1589365380470" duration="1346000" />
+      <workItem from="1589371370573" duration="9000" />
+      <workItem from="1589371831284" duration="52000" />
+      <workItem from="1589383100106" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589348447286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589348447286" />
+    <state x="644" y="253" width="632" height="534" key="find.popup" timestamp="1589210372859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="253" width="632" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589210372859" />
+  </component>
+</project>

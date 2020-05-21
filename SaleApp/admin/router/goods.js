@@ -54,6 +54,10 @@ router.post('/handleOrder', async ctx => {
     await GoodsController.handleOrder(ctx);
 });
 
+router.post('/backOrder', async ctx => {
+    await GoodsController.backOrder(ctx);
+});
+
 router.get('/getOrder', async ctx => {
     await GoodsController.getAllOrder(ctx);
 });
@@ -70,4 +74,27 @@ router.post('/getByKeyword', async ctx => {
     await GoodsController.getGoodsByKeyword(ctx);
 });
 
+router.post('/commentGoods', async ctx => {
+    await GoodsController.getCommentGoods(ctx);
+});
+
+router.post('/confirmOrder', async ctx => {
+    await GoodsController.confirmOrder(ctx);
+});
+
+router.post('/backOrHandleOrder', async ctx => {
+    await GoodsController.handleOrBackOrder(ctx);
+});
+
+router.post('/checkHandleOrder', async ctx => {
+    await GoodsController.checkHandleOrder(ctx);
+});
+
+router.post('/backOrders', async ctx => {
+    await GoodsController.getBackOrders(ctx);
+});
+
+router.post('/comment', async ctx => {
+    await GoodsController.commentGoods(ctx)
+});
 module.exports = router;

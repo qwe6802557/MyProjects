@@ -59,3 +59,12 @@
 ![1571487006957](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571487006957.png)
 
 ***使用name传值就要用params*** 相应用this.$route.params.goodsId进行接收
+
+
+
+#### vant踩坑：
+
+在使用vant的address-edit组件时 发现初始值必须设定一个值，否则异步请求回来数据不会更新组件值。![1586968714677](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1586968714677.png)
+
+![1586968723317](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1586968723317.png)
+

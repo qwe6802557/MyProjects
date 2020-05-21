@@ -1,0 +1,200 @@
+#withdraw-action{
+    background: #F6F6F6;
+    height: 100vh;
+    .help-head{
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 .3rem;
+        position: relative;
+        .arrow-left{
+            position: absolute;
+            left: .3rem;
+            svg{
+                width: .5rem;
+                height: .5rem;
+                margin-top: .1rem;
+            }
+        }
+        span{
+            font-size:0.36rem;
+            font-weight:800;
+            color:rgba(51,51,51,1);
+            line-height:36px;
+            text-align: center;
+            flex: 1;
+            margin-bottom: 0;
+        }
+    }
+    .content-top{
+        background:linear-gradient(90deg,rgba(86,142,255,1) 1%,rgba(123,201,255,1) 100%);
+        height: 3.9rem;
+        padding: .3rem;
+        padding-right: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .top-left{
+            span{
+                font-size:.3rem;
+                font-weight:800;
+                color:rgba(255,255,255,1);
+            }
+            h3{
+                font-size:.64rem;
+                font-weight:bold;
+                color:rgba(255,255,255,1);
+                margin-top: .3rem;
+            }
+        }
+        .top-right{
+            padding-top: .5rem;
+            .to-money{
+                width:1.97rem;
+                height:.54rem;
+                background:rgba(255,255,255,.2);
+                border-radius:27px 0px 0px 27px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                padding-left: .1rem;
+                span{
+                    font-size:.24rem;
+                    font-weight:500;
+                    color:rgba(255,255,255,1);
+                }
+                img{
+                    width: .22rem;
+                    height: .22rem;
+                }
+            }
+        }
+    }
+    .help-content{
+        padding: .3rem;
+        position: absolute;
+        top: 2.7rem;
+        .content-p{
+            width: 6.9rem;
+            padding: .3rem;
+            font-size: .28rem;
+            color:rgba(100,100,100,1);
+            background: #FFFFFF;
+            border-radius: 8px;
+            p{
+                padding: .25rem;
+                line-height:.5rem;
+                font-size:.26rem;
+                font-weight:500;
+                color:rgba(153,153,153,1);
+                margin-bottom: 0;
+            }
+        }
+        .content-button{
+            text-align: center;
+            padding-bottom: .3rem;
+            span{
+                width: 100%;
+                height: .87rem;
+                line-height: .87rem;
+                font-size: .32rem;
+                display: inline-block;
+                background: #5599FF;
+                color: #FFFFFF;
+                border-radius: 10%;
+                background: url("../../public/img/圆角矩形 2.png") no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }
+    .invest-title{
+        font-size:.3rem;
+        font-weight:500;
+        color:rgba(51,51,51,1);
+    }
+    .invest-count{
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgba(204,204,204,.5);
+        align-items: center;
+        padding-bottom: .5rem;
+        h4{
+            font-size:.74rem;
+            font-weight:500;
+            color:rgba(51,51,51,1);
+            margin-block-end: 0;
+        }
+        input{
+            font-size:.54rem;
+            padding-left: .2rem;
+            width: 4.5rem;
+            outline: none;
+            border: none;
+            background: transparent;
+        }
+        span{
+            font-size:.32rem;
+            font-weight:500;
+            color:rgba(85,153,255,1);
+        }
+    }
+    .invest-methods{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .each-method{
+            width:2.97rem;
+            height:.87rem;
+            border:2px solid rgba(85,153,255,1);
+            border-radius:5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: .38rem;
+            &:nth-child(1){
+                position: relative;
+                &:before{
+                    content: '';
+                    display: block;
+                    width: .45rem;
+                    height: .45rem;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    background: url("../../public/img/checked.png") no-repeat center center;
+                    background-size: 100% 100%;
+                }
+            }
+            &:nth-child(2){
+                position: relative;
+                &:after{
+                    content: '推荐';
+                    display: block;
+                    width: .78rem;
+                    height: .31rem;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    font-size:.2rem;
+                    text-align: center;
+                    line-height: .31rem;
+                    font-weight:500;
+                    color:rgba(255,255,255,1);
+                    background:linear-gradient(90deg,rgba(86,142,255,1) 1%,rgba(123,201,255,1) 100%);
+                    border-radius:0px 4px 0px 6px;
+                }
+            }
+            &:nth-child(odd){
+                margin-right: .3rem;
+            }
+            img{
+                width: .4rem;
+                height: .33rem;
+                margin-right: .15rem;
+            }
+        }
+    }
+}

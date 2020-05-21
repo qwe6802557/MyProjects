@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd9bde00-59ce-4e5b-b64c-6dd07974454f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-news-front/src/public/images/newsbanner1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-news-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-news-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FurWebsite" beforeDir="false" afterPath="$PROJECT_DIR$/../FurWebsite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-news-front" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/components/register/register.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-news-front/src/components/register/register.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/database/model/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/database/model/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/front" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/front" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TagProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TagProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TagProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TagProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TagProject/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TagProject/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TagProject/tag-project" beforeDir="false" afterPath="$PROJECT_DIR$/../TagProject/tag-project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../个人踩坑笔记/vue+KOA开发移动端.md" beforeDir="false" afterPath="$PROJECT_DIR$/../个人踩坑笔记/vue+KOA开发移动端.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../个人踩坑笔记/全栈项目笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../个人踩坑笔记/全栈项目笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front/my-news-front" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1YLFf1KfekTKsb7D0VUqMLKeNYp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,23 +48,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../qiye" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\admin\my-news-admin\public\images\top" />
-      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\public\images" />
-      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\components\register" />
-      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\components" />
-      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\public\images" />
       <recent name="C:\Users\Administrator\Desktop\NewsWebsite\admin\my-news-admin\public\images\banner" />
       <recent name="C:\Users\Administrator\Desktop\NewsWebsite\admin\my-news-admin\public\images" />
       <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\api" />
       <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\untils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\admin\my-news-admin\public\images\top" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\public\images" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\components\register" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src\components" />
+      <recent name="C:\Users\Administrator\Desktop\NewsWebsite\front\my-news-front\src" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -116,6 +114,21 @@
       <workItem from="1585384096702" duration="1212000" />
       <workItem from="1586014295828" duration="1932000" />
       <workItem from="1586180448671" duration="1336000" />
+      <workItem from="1586932736437" duration="1488000" />
+      <workItem from="1587372191237" duration="3525000" />
+      <workItem from="1587397471156" duration="1933000" />
+      <workItem from="1587399654917" duration="1783000" />
+      <workItem from="1587485471910" duration="769000" />
+      <workItem from="1587530820966" duration="34000" />
+      <workItem from="1587565890482" duration="26000" />
+      <workItem from="1588070407991" duration="172000" />
+      <workItem from="1588071613448" duration="2755000" />
+      <workItem from="1588081749958" duration="40000" />
+      <workItem from="1588241181519" duration="767000" />
+      <workItem from="1588331566991" duration="810000" />
+      <workItem from="1588333791016" duration="39000" />
+      <workItem from="1588519938794" duration="2055000" />
+      <workItem from="1588523420255" duration="11000" />
     </task>
     <servers />
   </component>
@@ -131,14 +144,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582734149549" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582827245504">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588523430617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582827245504" />
-    <state x="644" y="253" width="746" height="600" key="find.popup" timestamp="1583415467727">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588523430617" />
+    <state x="644" y="253" width="746" height="600" key="find.popup" timestamp="1588331606902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="253" width="746" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583415467727" />
+    <state x="644" y="253" width="746" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588331606902" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583337657990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

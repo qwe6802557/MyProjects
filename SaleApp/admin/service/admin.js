@@ -15,6 +15,52 @@ const Sequelize = require('sequelize');
 class AdminService {
 
     static async getGoodsList (ctx) {
+        const { categoryId, goodsName, currentPage, pageSize } = ctx.request.body;
+        const searchCondition = {};
+
+        const offset = (currentPage - 1) * pageSize;
+        const limit = parseInt(pageSize);
+
+        !!categoryId && Object.defineProperty(searchCondition, 'categoryId', {
+            value: {
+                [Sequelize.Op.like]: `%${categoryId}%`
+            },
+            writable: true,
+            enumerable: true,
+        });
+
+        !!goodsName && Object.defineProperty(searchCondition, 'goodsName', {
+            value: {
+                [Sequelize.Op.like]: `%${goodsName}%`
+            },
+            writable: true,
+            enumerable: true,
+        });
+
+        const result = await Goods.findAndCountAll({
+            where: searchCondition,
+            raw: true,
+            limit,
+            offset,
+        });
+
+        for (const item of result.rows){
+            const category = await Category.findOne({
+                where: {
+                    id: item.categoryId,
+                },
+                raw: true,
+            });
+
+            category.categoryId = category.id;
+            delete category.id;
+            Object.assign(item, category);
+        }
+
+        return result;
+    }
+
+    /*static async getGoodsList (ctx) {
         const { goodsName } = ctx.query;
         let result = [];
         if (goodsName){
@@ -43,6 +89,19 @@ class AdminService {
             },
             raw: true
         })
+    }*/
+
+    static async getCategoryGoods (ctx) {
+        const { categoryId } = ctx.query;
+
+        const result = await Goods.findAll({
+            where: {
+                categoryId,
+            },
+            raw: true
+        });
+
+        return result;
     }
 
     static async getCategory (ctx) {
@@ -192,19 +251,19 @@ class AdminService {
             offset,
         });
 
-        for (const item of result.rows){
-            const user = await User.findOne({
-                where: {
-                    id: item.user_id,
-                },
-                raw: true,
-            });
+        if (result.count > 0){
+            for (const item of result.rows){
+                const user = await User.findOne({
+                    where: {
+                        id: item.user_id,
+                    },
+                    raw: true,
+                });
 
-            user.user_id = user.id;
-            delete user.id;
-            Object.assign(item, user);
-
-
+                user.user_id = user.id;
+                delete user.id;
+                Object.assign(item, user);
+            }
         }
 
         return result;
@@ -274,6 +333,55 @@ class AdminService {
         return true;
     }
 
+    static async handleOrder (ctx) {
+        const { id } = ctx.request.body;
+
+        const result_order = await Order.findOne({
+            where: {
+                id
+            },
+            raw: true
+        });
+
+        const result_goods = await Goods.findOne({
+           where: {
+               id: result_order.goods_id
+           },
+            raw: true,
+        });
+
+        await Goods.update({
+            goodsNum: result_goods.goodsNum - result_order.order_num
+        }, {
+            where: {
+                id: result_order.goods_id
+            }
+        });
+
+        await Order.update({
+            order_status: '2'
+        }, {
+            where: {
+                id
+            }
+        });
+
+        return true;
+    }
+    // 商品 上下架
+    static async handleOnOrOffSell(ctx){
+        const { id, type } = ctx.request.body;
+
+        await Goods.update({
+            isOnSell: type.toString()
+        }, {
+            where: {
+                id
+            }
+        });
+
+        return true;
+    }
 }
 
 module.exports = AdminService;

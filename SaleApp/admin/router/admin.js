@@ -18,6 +18,10 @@ router.get('/getAllUser', async ctx => {
     await AdminController.getAllUser(ctx);
 });
 
+router.post('/getGoodsList', async ctx => {
+    await AdminController.getGoodsList(ctx);
+});
+
 router.post('/getOrder', async ctx => {
     await AdminController.getOrder(ctx);
 });
@@ -32,6 +36,14 @@ router.post('/updateOrder', async ctx => {
 
 router.post('/deleteOrder', async ctx => {
     await AdminController.deleteOrder(ctx);
+});
+
+router.post('/handleOrder', async ctx => {
+    await AdminController.handleOrder(ctx);
+});
+
+router.post('/handleOnOrOffSell', async ctx => {
+    await AdminController.handleOnOrOffSell(ctx);
 });
 
 module.exports = router;

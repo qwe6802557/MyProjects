@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8576030e-2480-47e0-989e-97bdb0283535" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front" />
+  </component>
+  <component name="ProjectId" id="1c4WkyXA9361el2E4O1e2qFGaEm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\react-app\front\src\pages\layout" />
+      <recent name="C:\Users\Admin\Desktop\react-app\front\src\pages\home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\react-app\front\src" />
+      <recent name="C:\Users\Admin\Desktop\react-app\front\src\pages\home" />
+      <recent name="C:\Users\Admin\Desktop\react-app\front\src\components" />
+      <recent name="C:\Users\Admin\Desktop\react-app\front\config" />
+      <recent name="C:\Users\Admin\Desktop\react-app\front" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8576030e-2480-47e0-989e-97bdb0283535" name="Default Changelist" comment="" />
+      <created>1589788492077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589788492077</updated>
+      <workItem from="1589788493157" duration="3936000" />
+      <workItem from="1589795368116" duration="818000" />
+      <workItem from="1589797213792" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

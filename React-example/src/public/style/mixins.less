@@ -1,0 +1,85 @@
+// 清楚浮动
+.clear() {
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+}
+
+.fl() {
+  float: left;
+}
+
+.fr() {
+  float: right;
+}
+
+//隐藏
+.hide(){
+    display: none;
+}
+
+.text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 输入框提示语颜色
+.placeholder(@color) {
+  &:-ms-input-placeholder {
+    color: @color;
+  }
+
+  &::-moz-placeholder {
+    color: @color;
+  }
+
+  &::-webkit-input-placeholder {
+    color: @color;
+  }
+
+}
+
+//输入框公共样式
+.input-field(@control-border,@control-color,@control-placeholder-color,@control-focus-color){
+    height: 24px;
+    line-height: 24px;
+    width: 138px;
+    border:@control-border;
+    border-radius: 4px;
+    padding:0 10px;
+    outline:none;
+    color:@control-color;
+    .placeholder(@control-placeholder-color);
+    &:focus { border-color:@control-focus-color; }
+}
+
+
+// 透明度
+.opacity (@opacity) {
+    @opacityPercentage: @opacity * 100;
+    -webkit-opacity: @opacity;
+    -moz-opacity: @opacity;
+    -khtml-opacity: @opacity;
+    opacity: @opacity;
+    -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=(@{opacityPercentage}))";
+    filter: ~"alpha(opacity = (@{opacityPercentage}))";
+}
+
+//不换行
+.nonewline(){
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+//宽度通过像素计算百分比
+.widthPx2Rate(@numerator, @denominator) when (isnumber(@numerator)), (ispixel(@numerator)), (isnumber(@denominator)), (ispixel(@denominator)) {
+    width:unit(unit(@numerator)*100/unit(@denominator),%);
+}
+

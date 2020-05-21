@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit"/>
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    %ICON_FONT_SOUCE%
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+
+  </head>
+  <body prefix="" mapPath="" pictureType="">
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+  <script>
+    function insertAfter(newEl, targetEl) { //在某元素之后插入节点
+
+      var parentEl = targetEl.parentNode;
+
+      if (parentEl.lastChild == targetEl) {
+        parentEl.appendChild(newEl);
+      } else {
+        parentEl.insertBefore(newEl, targetEl.nextSibling);
+      }
+
+    }
+
+
+
+    (function setDprCorrelation(){
+
+      var docEl = document.documentElement;
+      var metaAll = document.querySelectorAll('meta');
+      var lastMeta = metaAll[metaAll.length-1];
+      var dpr = window.devicePixelRatio||1;
+      var scale = 1;
+      var isAndroid = window.navigator.appVersion.match(/android/gi);
+      var isIPhone = window.navigator.appVersion.match(/iphone/gi);
+
+      if (isIPhone) {
+        // iOS下
+        dpr = Math.floor(dpr);
+
+      } else {
+        // 其他设备下，仍旧使用1倍的方案
+        dpr = 1;
+      }
+
+      // scale = 1/dpr;
+      // docEl.setAttribute('data-dpr', dpr);
+      docEl.setAttribute('data-dpr', 1);
+
+      var viewportEl = document.createElement('meta');
+
+      viewportEl.setAttribute('name', 'viewport');
+      viewportEl.setAttribute('content', 'width=device-width, initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
+      insertAfter(viewportEl,lastMeta);
+
+    })();
+
+    (function setDevicePixel(){
+      document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+      window.addEventListener('resize',setDevicePixel,false);
+    })();
+  </script>
+</html>

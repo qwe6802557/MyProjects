@@ -1,7 +1,5 @@
 const { db } = require('../db');
 const Sequelize = require('sequelize');
-const { User }  = require('./user');
-const { Goods }  = require('./goods');
 
 const Order = db.define('order', {
     id: {
@@ -10,20 +8,25 @@ const Order = db.define('order', {
         autoIncrement: true,
         allowNull: true
     },
-    user_id: {
-        type: Sequelize.INTEGER,
-        field: 'user_id',
-        allowNull: false
-    },
     goods_id: {
         type: Sequelize.INTEGER,
         field: 'goods_id',
         allowNull: false
     },
+    /*order_id: {
+        type: Sequelize.INTEGER,
+        field: 'order_id',
+        allowNull: false
+    },*/
     categoryId: {
         type: Sequelize.INTEGER,
         field: 'categoryId',
         allowNull: false
+    },
+    user_id: {
+        type: Sequelize.INTEGER,
+        field: 'user_id',
+        allowNull: false,
     },
     order_pic: {
         type: Sequelize.STRING,
@@ -47,7 +50,7 @@ const Order = db.define('order', {
         allowNull: false
     },
     order_status: {
-        type: Sequelize.ENUM(['0', '1']), // 0 未付款 1 已付款
+        type: Sequelize.ENUM(['0', '1', '2', '3', '4']), // 0 未付款 1 已付款  2 已发货  3 已收货 4 已评价
         field: 'order_status',
         allowNull: true,
         defaultValue: '0'
@@ -60,10 +63,6 @@ const Order = db.define('order', {
     },
 });
 
-Order.associate = function () {
-    Order.belongsTo(User, { foreignKey: 'user_id', targetKey: 'id' });
-    Order.belongsTo(Goods, { foreignKey: 'goods_id', targetKey: 'id' });
-};
 
 Order.sync({ alter: true });
 

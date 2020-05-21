@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8e1494d-1618-44dd-91b3-c2508e6dd959" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/front/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front" />
+  </component>
+  <component name="ProjectId" id="1a4xPwymspduAb4DITnObRMMQbQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\ProjectsCollection\vue-sale\front\src\public\images" />
+      <recent name="C:\Users\Administrator\Desktop\ProjectsCollection\vue-sale\front\src\public\css" />
+      <recent name="C:\Users\Administrator\Desktop\ProjectsCollection\vue-sale\front\src\components" />
+      <recent name="C:\Users\Administrator\Desktop\ProjectsCollection\vue-sale\front\src\plugins" />
+      <recent name="C:\Users\Administrator\Desktop\vue-sale\front" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="y" />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8e1494d-1618-44dd-91b3-c2508e6dd959" name="默认更改列表" comment="" />
+      <created>1586008646243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586008646243</updated>
+      <workItem from="1586008647479" duration="11404000" />
+      <workItem from="1586095109775" duration="879000" />
+      <workItem from="1586100314529" duration="7527000" />
+      <workItem from="1586150239738" duration="13858000" />
+      <workItem from="1586168654078" duration="9078000" />
+      <workItem from="1586180384041" duration="2283000" />
+      <workItem from="1586182682346" duration="801000" />
+      <workItem from="1586183577841" duration="63000" />
+      <workItem from="1586528316587" duration="6348000" />
+      <workItem from="1586708498326" duration="3664000" />
+      <workItem from="1586751360343" duration="86000" />
+      <workItem from="1586876112354" duration="7853000" />
+      <workItem from="1586932272490" duration="4572000" />
+      <workItem from="1586963861079" duration="7135000" />
+      <workItem from="1587010785433" duration="39830000" />
+      <workItem from="1587096901479" duration="38000" />
+      <workItem from="1587134921411" duration="2315000" />
+      <workItem from="1587137953878" duration="161000" />
+      <workItem from="1587190139326" duration="196000" />
+      <workItem from="1587293140851" duration="2652000" />
+      <workItem from="1587313479315" duration="3009000" />
+      <workItem from="1587359289765" duration="15000" />
+      <workItem from="1587375823685" duration="1446000" />
+      <workItem from="1587798012248" duration="250000" />
+      <workItem from="1587798350083" duration="144000" />
+      <workItem from="1587804616205" duration="609000" />
+      <workItem from="1588935673568" duration="743000" />
+      <workItem from="1588947132229" duration="615000" />
+      <workItem from="1588952417851" duration="160000" />
+      <workItem from="1589089702455" duration="248000" />
+      <workItem from="1589093209355" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586009312913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586009312913" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586932733721">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586932733721" />
+    <state x="737" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586100702537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="737" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586100702537" />
+    <state x="644" y="253" width="746" height="600" key="find.popup" timestamp="1587136746783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="253" width="746" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587136746783" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1586176163403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586176163403" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587015441812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587015441812" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/admin/router/goods.js</url>
+          <line>64</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/admin/router/home.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

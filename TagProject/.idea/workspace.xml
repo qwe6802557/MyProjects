@@ -2,12 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37556446-ac71-4248-b72c-32f237105d2c" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/tag-project/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag-project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag-project/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FurWebsite" beforeDir="false" afterPath="$PROJECT_DIR$/../FurWebsite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsWebsite/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NewsWebsite/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsWebsite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NewsWebsite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewsWebsite/front/my-news-front" beforeDir="false" afterPath="$PROJECT_DIR$/../NewsWebsite/front/my-news-front" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/controller/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/controller/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/controller/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/controller/goods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/database/model/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/database/model/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/database/model/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/database/model/goods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/database/model/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/database/model/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/middleware/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/middleware/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/router/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/router/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/router/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/router/goods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/service/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/service/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/admin/service/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/admin/service/goods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SaleApp/front" beforeDir="false" afterPath="$PROJECT_DIR$/../SaleApp/front" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/node_modules/ansi-styles/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/api/file/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/api/file/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/api/schema/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/api/schema/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/api/tag/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/api/tag/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/components/leftBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/components/leftBar/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tag-project/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/plugins/antd.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/plugins/antd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/plugins/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/plugins/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/public/css/antd.css" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/public/css/antd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/public/css/antd.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/public/css/antd.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/public/css/antd.less" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/public/css/antd.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/authority/AddUser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/authority/AddUser.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/authority/Authority.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/authority/Authority.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/file/AddFile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/file/AddFile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/file/File.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/file/File.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/file/FileWord.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/file/FileWord.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/interface/Interface.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/interface/Interface.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/interface/InterfaceData.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/interface/InterfaceData.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/interface/InterfaceKey.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/interface/InterfaceKey.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/layout/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/layout/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/login/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/origin/schema/Schema.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/origin/schema/Schema.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/origin/table/Table.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/origin/table/Table.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/origin/words/AddWords.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/origin/words/AddWords.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/origin/words/Words.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/origin/words/Words.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/tag/Tag.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/tag/Tag.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/src/views/tag/TagGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/src/views/tag/TagGroup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag-project/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag-project/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcket-mall/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../个人踩坑笔记/vue+KOA开发移动端.md" beforeDir="false" afterPath="$PROJECT_DIR$/../个人踩坑笔记/vue+KOA开发移动端.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../个人踩坑笔记/全栈项目笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../个人踩坑笔记/全栈项目笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +104,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ClassmateRecord" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -47,11 +117,14 @@
       <recent name="C:\Users\Administrator\Desktop\tagProject\tag-project\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\MyProject\TagProject\tag-project\node_modules\ansi-styles" />
+      <recent name="C:\Users\Administrator\Desktop\MyProject\TagProject\tag-project\src\untils" />
       <recent name="C:\Users\Administrator\Desktop\tagProject\tag-project\src\views\tag" />
     </key>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -150,6 +223,54 @@
       <workItem from="1586270536325" duration="1426000" />
       <workItem from="1586273333026" duration="930000" />
       <workItem from="1586850085876" duration="4918000" />
+      <workItem from="1587033243829" duration="648000" />
+      <workItem from="1587035187165" duration="3000" />
+      <workItem from="1587036457571" duration="67000" />
+      <workItem from="1587097941683" duration="15884000" />
+      <workItem from="1587123101244" duration="269000" />
+      <workItem from="1587126357368" duration="1089000" />
+      <workItem from="1587134291848" duration="627000" />
+      <workItem from="1587140866561" duration="1592000" />
+      <workItem from="1587194871105" duration="25381000" />
+      <workItem from="1587387477193" duration="6244000" />
+      <workItem from="1587397322648" duration="67000" />
+      <workItem from="1587443377059" duration="164000" />
+      <workItem from="1587443763642" duration="45000" />
+      <workItem from="1587472953578" duration="349000" />
+      <workItem from="1587480895508" duration="4000" />
+      <workItem from="1587548648433" duration="2421000" />
+      <workItem from="1587551432250" duration="134000" />
+      <workItem from="1587551655325" duration="34000" />
+      <workItem from="1587571107812" duration="2760000" />
+      <workItem from="1587617509999" duration="27000" />
+      <workItem from="1587733929143" duration="783000" />
+      <workItem from="1587736136939" duration="438000" />
+      <workItem from="1587740982236" duration="13000" />
+      <workItem from="1587906777457" duration="456000" />
+      <workItem from="1587910977744" duration="1080000" />
+      <workItem from="1587997970946" duration="625000" />
+      <workItem from="1588001918087" duration="669000" />
+      <workItem from="1588002800991" duration="12000" />
+      <workItem from="1588166463979" duration="1753000" />
+      <workItem from="1588171434113" duration="20000" />
+      <workItem from="1588611674529" duration="1431000" />
+      <workItem from="1588667088279" duration="2345000" />
+      <workItem from="1588755304098" duration="3535000" />
+      <workItem from="1588777809987" duration="1358000" />
+      <workItem from="1588779511609" duration="101000" />
+      <workItem from="1588850460810" duration="1997000" />
+      <workItem from="1588871057854" duration="1186000" />
+      <workItem from="1588953486693" duration="1712000" />
+      <workItem from="1588956036126" duration="1064000" />
+      <workItem from="1588995980883" duration="35000" />
+      <workItem from="1589012354880" duration="655000" />
+      <workItem from="1589024669666" duration="21000" />
+      <workItem from="1589035405195" duration="272000" />
+      <workItem from="1589040167437" duration="260000" />
+      <workItem from="1589290950779" duration="459000" />
+      <workItem from="1589291780206" duration="330000" />
+      <workItem from="1589292265901" duration="125000" />
+      <workItem from="1589294096286" duration="200000" />
     </task>
     <servers />
   </component>
@@ -165,43 +286,56 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584094235916" />
+    <state x="575" y="101" key="CommitChangelistDialog2" timestamp="1587551066173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="575" y="101" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587551066173" />
     <state x="566" y="296" key="EditFileWatcherDialog" timestamp="1584202347142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="566" y="296" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584202347142" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1585469493442">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589292385505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585469493442" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589292385505" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587387908441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587387908441" />
     <state x="320" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585582596882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="320" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585582596882" />
-    <state x="644" y="253" width="632" height="534" key="find.popup" timestamp="1585839147003">
+    <state x="644" y="253" width="746" height="600" key="find.popup" timestamp="1589035522040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="253" width="632" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585839147003" />
+    <state x="644" y="253" width="746" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589035522040" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1585407204731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585407204731" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585838245520">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587209457156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585838245520" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587209457156" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/tag-project/src/views/origin/words/Words.vue</url>
-          <line>40</line>
+          <line>41</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/tag-project/src/api/user/index.js</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/tag-project/src/views/file/AddFile.vue</url>
+          <line>123</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

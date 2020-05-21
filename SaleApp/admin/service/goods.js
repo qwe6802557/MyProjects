@@ -6,15 +6,18 @@ const { Category } = require('../database/model/category');
 const { Address } = require('../database/model/address');
 const { Order } = require('../database/model/order');
 const { User } = require('../database/model/user');
+const { Comment } = require('../database/model/comment');
+const { backSell } = require('../database/model/backSell');
 const  { encryptPw, decryptPw } = require('../untils/password');
-const { jwtBorn, jwtValidate } = require('../untils/jwt');
+const { jwtBorn } = require('../untils/jwt');
 const Sequelize = require('sequelize');
+const moment = require('moment');
 
 class GoodsService {
 
     static async getGoodsList (ctx) {
         const { categoryId, goodsName, currentPage, pageSize } = ctx.request.body;
-        const searchCondition = {};
+        const searchCondition = { isOnSell: '0' };
 
         const offset = (currentPage - 1) * pageSize;
         const limit = parseInt(pageSize);
@@ -50,6 +53,27 @@ class GoodsService {
                 raw: true,
             });
 
+            const comment = await Comment.findAll({
+                where: {
+                    goods_id: item.id,
+                },
+                raw: true,
+            });
+
+            if (comment.length > 0){
+                for (const cItem of comment){
+                    const userInfo = await User.findOne({
+                        where: {
+                            id: cItem.user_id
+                        },
+                        attributes: 'username',
+                        raw: true,
+                    });
+                    cItem.username = userInfo.username;
+                    cItem.createAt = moment(cItem.createAt).format('YYYY-MM-DD hh:mm:ss');
+                }
+            }
+
             category.categoryId = category.id;
             delete category.id;
             Object.assign(item, category);
@@ -64,11 +88,34 @@ class GoodsService {
         const result = await Goods.findAll({
             where: {
                 categoryId,
+                isOnSell: '0'
             },
             raw: true
         });
 
-        console.log(result);
+        for (const item of result ) {
+            const comment = await Comment.findAll({
+                where: {
+                    goods_id: item.id,
+                },
+                raw: true,
+            });
+
+            if (comment.length > 0){
+                for (const cItem of comment){
+                    const userInfo = await User.findOne({
+                        where: {
+                            id: cItem.user_id
+                        },
+                        attributes: ['username'],
+                        raw: true,
+                    });
+                    cItem.username = userInfo.username;
+                    cItem.createdAt = moment(cItem.createdAt).format('YYYY-MM-DD hh:mm:ss');
+                }
+            }
+            item.comment = comment;
+        }
 
         return result;
     }
@@ -269,6 +316,46 @@ class GoodsService {
             raw: true,
         });
 
+        for (const item of result){
+            const result_back = await backSell.findOne({
+                where: {
+                    order_id: item.id
+                },
+                raw: true
+            });
+
+            const result_comment = await Comment.findOne({
+                where: {
+                    goods_id: item.goods_id,
+                    user_id: item.user_id
+                },
+                raw: true
+            });
+
+            if (result_comment){
+                item.isComment = true;
+            }
+            if (result_back){
+               if (result_back.type === '0'){
+                   if (result_back.back_status === '0'){
+                       item.isBacking = true;
+                   } else if (result_back.back_status === '1'){
+                       item.isBacked = true;
+                   } else {
+                       item.isBackReject = true;
+                   }
+               } else {
+                   if (result_back.back_status === '0'){
+                       item.isHandling = true;
+                   } else if (result_back.back_status === '1') {
+                       item.isHandled = true;
+                   } else {
+                       item.isHandleReject = true;
+                   }
+               }
+            }
+        }
+
         return result;
     }
 
@@ -318,6 +405,144 @@ class GoodsService {
         });
 
         return result;
+    }
+
+    static async getCommentGoods () {
+        const result = await Goods.findAll({
+            where: {
+                isComment: '1'
+            },
+            limit: 9,
+            raw: true,
+        });
+
+        return result;
+    }
+    // 用户收货
+    static async confirmOrder (ctx) {
+        const { id } = ctx.request.body;
+
+        await Order.update({
+            order_status: '3'
+        }, {
+            where: {
+                id
+            }
+        });
+    }
+   // 用户退/换货
+    static async handleOrBackOrder(ctx){
+        const { order_id, user_id, type } = ctx.request.body;
+
+        await backSell.destroy({
+                where: {
+                    order_id: order_id,
+                    user_id: user_id,
+                },
+        });
+
+        await backSell.create({
+            order_id,
+            user_id,
+            type: type.toString()
+        });
+        return true;
+    }
+    static async getBackOrders () {
+        const result = await backSell.findAll({
+            where: {
+              back_status: '0'
+            },
+            raw: true,
+        });
+
+        for (const item of result){
+
+            const order = await Order.findOne({
+                where: {
+                    id: item.order_id
+                },
+                raw: true
+            });
+            const user = await User.findOne({
+                where: {
+                    id: item.user_id
+                },
+                attributes: ['username'],
+                raw: true
+            });
+            const goods = await Goods.findOne({
+                where: {
+                    id: order.goods_id,
+                },
+                attributes: ['goodsName'],
+                raw: true,
+            });
+            item.username = user.username;
+            item.order_num = order.order_num;
+            item.goodsName = goods.goodsName;
+        }
+
+        return result;
+    }
+    // 管理员处理退/换货
+    static async checkHandleOrder(ctx){
+        const { id, type } = ctx.request.body;
+
+        if (type === 1){
+            const result = await backSell.findOne({
+                where: {
+                    id
+                },
+                raw: true
+            });
+
+            const result_order = await Order.findOne({
+                where: {
+                    id: result.order_id
+                },
+                raw: true,
+            });
+
+            const result_goods = await Goods.findOne({
+                where: {
+                    id: result_order.goods_id
+                },
+                raw: true
+            });
+
+            await Goods.update({
+                goodsNum:  result_goods.goodsNum + result_order.order_num
+            }, {
+                where: {
+                    id: result_order.goods_id
+                }
+            });
+        }
+
+        await backSell.update({
+            back_status: type.toString()
+        }, {
+            where: {
+                id
+            }
+        });
+        return true;
+    }
+
+    // 商品评论
+    static async commentGoods (ctx) {
+        const {  goods_id, comment, score, user_id } = ctx.request.body;
+
+        await Comment.create({
+            goods_id,
+            comment,
+            score,
+            user_id
+        });
+
+        return true;
+
     }
 }
 
