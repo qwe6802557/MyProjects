@@ -1,0 +1,158 @@
+#all{
+    background: #F6F6F6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .help-head{
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 .3rem;
+        position: relative;
+        .arrow-left{
+            position: absolute;
+            left: .3rem;
+            svg{
+                width: .5rem;
+                height: .5rem;
+                margin-top: .1rem;
+            }
+        }
+        span{
+            font-size:0.36rem;
+            font-weight:800;
+            color:rgba(51,51,51,1);
+            line-height:36px;
+            text-align: center;
+            flex: 1;
+            margin-bottom: 0;
+        }
+    }
+    .all-content{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        .leftBar{
+            background: #ffffff;
+            display: flex;
+            flex-direction: column;
+            width: 10rem;
+            .each-bar{
+                padding: .3rem .2rem;
+                border: .02rem rgba(243,245,247,1) solid;
+                border-radius:1px;
+                font-size:.28rem;
+                font-weight:bold;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                img{
+                    margin-right: .1rem;
+                    width: .3rem;
+                    height: .3rem;
+                }
+            }
+        }
+        .rightBar{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: .1rem;
+            .seeMore{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                span{
+                    margin-right: .2rem;
+                }
+            }
+            h3{
+                font-size:.28rem;
+                font-weight:bold;
+                color:rgba(51,51,51,1);
+                margin-bottom: 0;
+            }
+        }
+        .right-content{
+            padding: .2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .category-active{
+            font-size:.28rem;
+            font-weight:bold;
+            color:rgba(85,153,255,1);
+            position: relative;
+            &:before{
+                content: '';
+                display: block;
+                width: .04rem;
+                height: .54rem;
+                background: rgba(85,153,255,1);
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+    .right-bottom{
+        height: 6.17rem;
+        background:rgba(255,255,255,1);
+        border-radius:20px;
+        margin-top: .4rem;
+        .bottom-main{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: .2rem;
+            .each-box{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 33%;
+                margin-bottom: .45rem;
+                span{
+                    margin-top: .1rem;
+                    font-size:.24rem;
+                    font-weight:500;
+                    color:rgba(81,81,81,1);
+                }
+            }
+        }
+        img{
+            width: 1.07rem;
+            height: 1.07rem;
+        }
+    }
+    .help-content{
+        padding: .3rem;
+        .content-p{
+            font-size: .28rem;
+            color:rgba(100,100,100,1);
+            background: #FFFFFF;
+            border-radius: 8px;
+            p{
+                padding: .25rem;
+                line-height:.5rem;
+            }
+        }
+        .content-button{
+            text-align: center;
+            padding-bottom: .3rem;
+            span{
+                width: 4.61rem;
+                height: .88rem;
+                line-height: .88rem;
+                font-size: .32rem;
+                display: inline-block;
+                background: #5599FF;
+                color: #FFFFFF;
+                border-radius: 10%;
+                background: url("../../public/img/圆角矩形 2.png") no-repeat;
+            }
+        }
+    }
+}

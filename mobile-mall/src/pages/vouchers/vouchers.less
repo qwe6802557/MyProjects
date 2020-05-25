@@ -1,0 +1,275 @@
+#vouchers{
+    background: #F6F6F6;
+    height: 100vh;
+    .am-tabs-content-wrap{
+        background: #F6F6F6;
+    }
+    .each-voucher{
+        display: flex;
+        flex-direction: row;
+        background: #ffffff;
+        margin-bottom: .2rem;
+        .voucher-left{
+            width: 1.55rem;
+            height: 1.22rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            .left-content{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 999;
+                h3{
+                    font-size:.3rem;
+                    font-weight:bold;
+                    color:rgba(255,255,255,1);
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 0.15em;
+                }
+                span{
+                    font-size:.24rem;
+                    font-weight:500;
+                    color:rgba(255,255,255,1);
+                }
+            }
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 104%;
+                height: 106%;
+            }
+        }
+        .voucher-right{
+            padding: .1rem .2rem;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            h3{
+                font-size:.32rem;
+                font-weight:bold;
+                color:rgba(51,51,51,1);
+            }
+            span{
+                font-size:.22rem;
+                font-weight:500;
+                color:rgba(112,112,112,1);
+            }
+            .button-area{
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+                position: relative;
+            }
+            .each-button{
+                padding: .08rem .2rem;
+                position: absolute;
+                right: 0;
+                bottom: .04rem;
+                border:1px solid rgba(85,153,255,1);
+                border-radius:24px;
+                font-size:.24rem;
+                font-weight:400;
+                color:rgba(85,153,255,1);
+            }
+        }
+    }
+    .already-use{
+        .each-voucher{
+            position: relative;
+            &:after{
+                content: '';
+                display: block;
+                width: 1.07rem;
+                height: 1.07rem;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: url("../../public/img/use.png") no-repeat center center;
+                background-size: 100% 100%;
+            }
+        }
+        img{
+            z-index: 1;
+        }
+    }
+    .each-order{
+        background-color: #ffffff;
+        width: 6.9rem;
+        margin: .2rem auto;
+        border-radius:20px;
+        padding: .3rem;
+        .main-top{
+            padding-bottom: .28rem;
+            border-bottom: 1px solid rgba(204,204,204,1);
+            .top-first{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .top-second{
+                margin-top: .15rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .order-num{
+                margin-left: .15rem;
+            }
+            span{
+                font-size:.3rem;
+                font-weight:500;
+                color:rgba(51,51,51,1);
+            }
+            img{
+                width: .28rem;
+                height: .28rem;
+            }
+            .order-status{
+                font-size:.26rem;
+                font-weight:500;
+                color:rgba(255,25,64,1);
+                flex: 1;
+                text-align: right;
+            }
+        }
+        .main-bottom{
+            padding-top: .3rem;
+            img{
+                width: 1.6rem;
+                height: 1.6rem;
+            }
+            .right-first{
+                display: flex;
+                flex-direction: row;
+            }
+            .right-second{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                margin: .3rem 0;
+                p{
+                    font-size:.24rem;
+                    font-weight:500;
+                    color:rgba(51,51,51,1);
+                    margin-bottom: 0;
+                    span{
+                        font-size:.33rem;
+                    }
+                }
+            }
+            .right-third{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                p{
+                    margin-bottom: 0;
+                    font-size:.28rem;
+                    font-weight:500;
+                    color:rgba(51,51,51,1);
+                }
+                span{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    border:1px solid rgba(136,136,136,1);
+                    border-radius:30px;
+                    text-align: center;
+                    font-size:.28rem;
+                    font-weight:500;
+                    color:rgba(136,136,136,1);
+                    width: 1.6rem;
+                    height: 0.5rem;
+                }
+                .pay-order{
+                    border:1px solid rgba(85,153,255,1);
+                    color: rgba(85,153,255,1);
+                }
+            }
+            .bottom-right{
+                margin-left: .3rem;
+                height: 1.6rem;
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+                justify-content: space-between;
+                .order-price{
+                    font-size:.28rem;
+                    font-weight:500;
+                    color:rgba(255,25,64,1);
+                }
+                .right-last{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                p{
+                    width: 2.84rem;
+                    height: .63rem;
+                    font-size:.28rem;
+                    font-weight:500;
+                    color:rgba(51,51,51,1);
+                }
+            }
+        }
+    }
+    .help-head{
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 .3rem;
+        position: relative;
+        .arrow-left{
+            position: absolute;
+            left: .3rem;
+            svg{
+                width: .5rem;
+                height: .5rem;
+                margin-top: .1rem;
+            }
+        }
+        span{
+            font-size:0.36rem;
+            font-weight:800;
+            color:rgba(51,51,51,1);
+            line-height:36px;
+            text-align: center;
+            flex: 1;
+            margin-bottom: 0;
+        }
+    }
+    .help-content{
+        .content-p{
+            font-size: .28rem;
+            color:rgba(100,100,100,1);
+            background: #FFFFFF;
+            border-radius: 8px;
+            p{
+                padding: .25rem;
+                line-height:.5rem;
+            }
+        }
+        .content-button{
+            text-align: center;
+            padding-bottom: .3rem;
+            span{
+                width: 4.61rem;
+                height: .88rem;
+                line-height: .88rem;
+                font-size: .32rem;
+                display: inline-block;
+                background: #5599FF;
+                color: #FFFFFF;
+                border-radius: 10%;
+                background: url("../../public/img/圆角矩形 2.png") no-repeat;
+            }
+        }
+    }
+}

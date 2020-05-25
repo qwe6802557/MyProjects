@@ -130,6 +130,70 @@ const Market = RouterLoadable({
         import('@src/pages/market/market'),
 });
 
+const MainScholarship = RouterLoadable({
+    loader: () =>
+        import('@src/pages/scholarship/main'),
+});
+
+const Vouchers = RouterLoadable({
+    loader: () =>
+        import('@src/pages/vouchers/vouchers'),
+});
+
+const MyClass = RouterLoadable({
+    loader: () =>
+        import('@src/pages/class/myClass'),
+});
+
+const VipCenter = RouterLoadable({
+    loader: () =>
+        import('@src/pages/vip/center'),
+});
+
+const AllCategory = RouterLoadable({
+    loader: () =>
+        import('@src/pages/category/all'),
+});
+
+const AllCategoryOther = RouterLoadable({
+    loader: () =>
+        import('@src/pages/category/allOther'),
+});
+
+const PlateHope = RouterLoadable({
+    loader: () =>
+        import('@src/pages/plateHope/plateHope'),
+});
+
+const HelpOther = RouterLoadable({
+    loader: () =>
+        import('@src/pages/help/helpOther'),
+});
+
+const Cart = RouterLoadable({
+    loader: () =>
+        import('@src/pages/cart/cart'),
+});
+
+const Address = RouterLoadable({
+    loader: () =>
+        import('@src/pages/address/address'),
+});
+
+const EditAddress = RouterLoadable({
+    loader: () =>
+        import('@src/pages/address/editAddress'),
+});
+
+const ConfirmOrder = RouterLoadable({
+    loader: () =>
+        import('@src/pages/order/confirm'),
+});
+
+const Video = RouterLoadable({
+   loader: () =>
+      import('@src/pages/video/video')
+});
 const routes = [{
     path: '/auth',
     component: AuthLayout,
@@ -169,7 +233,7 @@ const routes = [{
         path: '/auth/vipOther',
         component: VipOther,
         exact: true,
-    },  {
+    }, {
         path: '/auth/personal',
         component: Personal,
         exact: true,
@@ -228,6 +292,58 @@ const routes = [{
     }, {
         path: '/auth/market',
         component: Market,
+        exact: true,
+    }, {
+        path: '/auth/mainScholarship',
+        component: MainScholarship,
+        exact: true,
+    }, {
+        path: '/auth/vouchers',
+        component: Vouchers,
+        exact: true,
+    }, {
+        path: '/auth/myClass',
+        component: MyClass,
+        exact: true,
+    }, {
+        path: '/auth/vipCenter',
+        component: VipCenter,
+        exact: true,
+    }, {
+        path: '/auth/allCategory',
+        component: AllCategory,
+        exact: true,
+    }, {
+        path: '/auth/allCategoryOther',
+        component: AllCategoryOther,
+        exact: true,
+    }, {
+        path: '/auth/plateHope',
+        component: PlateHope,
+        exact: true,
+    }, {
+        path: '/auth/helpOther',
+        component: HelpOther,
+        exact: true,
+    }, {
+        path: '/auth/cart',
+        component: Cart,
+        exact: true,
+    }, {
+        path: '/auth/address',
+        component: Address,
+        exact: true,
+    }, {
+        path: '/auth/editAddress',
+        component: EditAddress,
+        exact: true,
+    }, {
+        path: '/auth/confirmOrder',
+        component: ConfirmOrder,
+        exact: true,
+    }, {
+        path: '/auth/video',
+        component: Video,
         exact: true,
     }, {
         component: () => <Redirect to='/home' />

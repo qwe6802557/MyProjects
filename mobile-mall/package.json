@@ -144,8 +144,9 @@
     },
     "proxy": {
         "/": {
-            "target": "http://10.19.13.48:8084",
-            "changeOrigin": true
+            "target": "https://heyijiazu.cn",
+            "changeOrigin": true,
+            "secure": true
         }
     },
     "homepage": "./"

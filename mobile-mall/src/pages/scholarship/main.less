@@ -1,0 +1,203 @@
+#main{
+    background: #F6F6F6;
+    height: 100vh;
+    .main-top{
+        display: flex;
+        flex-direction: row;
+        height: 3rem;
+        padding: .3rem;
+        align-items: flex-start;
+        background: url("../../public/img/rest.png") no-repeat center center;
+        background-size: 118% 180%;
+        position: relative;
+        p{
+            margin-bottom: .1em;
+            font-size:.28rem;
+            font-weight:bold;
+            color:rgba(254,254,254,1);
+        }
+        .top-right{
+            height:.47rem;
+            position: absolute;
+            right: 0;
+            top: .6rem;
+            background:rgba(252,252,252,.35);
+            border-radius:23px 0px 0px 23px;
+            display: flex;
+            flex-direction: row;
+            font-size:.21rem;
+            align-items: center;
+            font-weight:500;
+            color:rgba(255,255,255,1);
+            img{
+                width: .3rem;
+                height: .3rem;
+                margin-right: .15rem;
+                margin-left: .12rem;
+            }
+        }
+        span{
+            font-size:.24rem;
+            font-weight:500;
+            color:rgba(254,254,254,1);
+        }
+        img{
+            width:.69rem;
+            height:.69rem;
+            border-radius:50%;
+            margin-right: .2rem;
+        }
+    }
+    .help-head{
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 .3rem;
+        position: relative;
+        .arrow-left{
+            position: absolute;
+            left: .3rem;
+            svg{
+                width: .5rem;
+                height: .5rem;
+                margin-top: .1rem;
+            }
+        }
+        span{
+            font-size:0.36rem;
+            font-weight:800;
+            color:rgba(51,51,51,1);
+            line-height:36px;
+            text-align: center;
+            flex: 1;
+            margin-bottom: 0;
+        }
+    }
+    .help-content{
+        padding: .25rem;
+        position: absolute;
+        top: 2rem;
+        &:after{
+            content: '';
+            display: block;
+            width: 2.5rem;
+            height: 2rem;
+            background: url("../../public/img/stand.png") no-repeat center center;
+            background-size: 100% 100%;
+            position: absolute;
+            right: .7rem;
+            top: .3rem;
+        }
+        .content-p{
+            font-size: .28rem;
+            color:rgba(100,100,100,1);
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding: .8rem .3rem;
+            padding-bottom: .15rem;
+            .constant{
+                padding: 0 .6rem;
+            }
+            .days-count{
+                padding: 0 .6rem;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                .each-day{
+                    margin: .2rem .25rem;
+                }
+            }
+            .no-constant{
+                font-size:.3rem;
+                font-weight:400;
+                color:rgba(85,153,255,1);
+                display: block;
+                text-align: center;
+                margin-bottom: .3rem;
+                position: relative;
+                box-sizing: content-box;
+                &:before{
+                    content: '';
+                    display: block;
+                    width: 1.6rem;
+                    height: .03rem;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background:rgba(85,153,255,1);
+                    position: absolute;
+                    left: 0;
+                }
+                &:after{
+                    content: '';
+                    display: block;
+                    width: 1.6rem;
+                    height: .03rem;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background:rgba(85,153,255,1);
+                    position: absolute;
+                    right: 0;
+                }
+            }
+            .days-count{
+                .each-day{
+                    display: flex;
+                    flex-direction: column;
+                    img{
+                        width: .8rem;
+                        height: .8rem;
+                    }
+                    span{
+                        font-size:.22rem;
+                        font-weight:400;
+                        color:rgba(85,153,255,1);
+                    }
+                }
+            }
+            p{
+                padding: .25rem;
+                line-height:.5rem;
+            }
+        }
+        h1{
+            font-size:.33rem;
+            font-weight:bold;
+            color:rgba(25,29,51,1);
+        }
+        h4{
+            font-size:.8rem;
+            font-weight:500;
+            color:rgba(85,153,255,1);
+            margin-left: .4rem;
+            margin-bottom: 0;
+        }
+        .rule-information{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            font-size:.21rem;
+            font-weight:500;
+            color:rgba(85,153,255,1);
+        }
+        .content-button{
+            text-align: center;
+            margin-top: .2rem;
+            span{
+                width: 5.5rem;
+                height: .88rem;
+                line-height: .88rem;
+                font-size: .32rem;
+                padding: 0 .5rem;
+                display: inline-block;
+                background: #5599FF;
+                color: #FFFFFF;
+                border-radius: 10%;
+                background: url("../../public/img/圆角矩形 2.png") no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }
+}

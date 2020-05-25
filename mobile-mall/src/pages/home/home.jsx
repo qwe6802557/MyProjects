@@ -206,12 +206,12 @@ export default class Home extends Component{
                             </div>
                         </div>
                         <div className="eighth-content">
-                            <Flex className="flex-row">
-                                <Flex.Item className="row-left">
+                            <div className="flex-row">
+                                <div className="row-left">
                                     <img src={require('@src/public/img/组29.png')} alt="图片"/>
-                                </Flex.Item>
-                                <Flex.Item className="row-right">
-                                    <Flex className="floor">
+                                </div>
+                                <div className="row-right">
+                                    <div className="floor">
                                         <div className="right-row-left">
                                             <span className="no-finish">未完成</span>
                                             <span className="class-span-common">贴身卫拳</span>
@@ -219,24 +219,24 @@ export default class Home extends Component{
                                         <div className="right-row-right">
                                             <span className="vip-free" style={{marginRight: '0'}}>VIP免费</span>
                                         </div>
-                                    </Flex>
-                                    <Flex className="floor1">
+                                    </div>
+                                    <div className="floor1">
                                         <span className="class-teacher">未知老师</span>
                                         <span className="center-split"/>
                                         <span className="class-count">1节</span>
                                         <span className="class-price" style={{marginLeft: '.2rem'}}>¥110.00</span>
                                         <span className="class-old-price" style={{marginLeft: '.15rem'}}>¥99.00</span>
-                                    </Flex>
-                                </Flex.Item>
-                            </Flex>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="eighth-content">
-                            <Flex className="flex-row">
-                                <Flex.Item className="row-left">
+                            <div className="flex-row">
+                                <div className="row-left">
                                     <img src={require('@src/public/img/组29.png')} alt="图片"/>
-                                </Flex.Item>
-                                <Flex.Item className="row-right">
-                                    <Flex className="floor">
+                                </div>
+                                <div className="row-right">
+                                    <div className="floor">
                                         <div className="right-row-left">
                                             <span className="no-finish">未完成</span>
                                             <span className="class-span-common">贴身桩功</span>
@@ -244,23 +244,23 @@ export default class Home extends Component{
                                         <div className="right-row-right">
                                             <span className="vip-free" style={{marginRight: '0'}}>VIP免费</span>
                                         </div>
-                                    </Flex>
-                                    <Flex className="floor1">
+                                    </div>
+                                    <div className="floor1">
                                         <span className="class-teacher">未知老师</span>
                                         <span className="center-split"/>
                                         <span className="class-count">1节</span>
                                         <span className="class-price" style={{marginLeft: '.2rem'}}>¥110.00</span>
                                         <span className="class-old-price" style={{marginLeft: '.15rem'}}>¥99.00</span>
-                                    </Flex>
-                                </Flex.Item>
-                            </Flex>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="eighth-content">
-                            <Flex className="flex-row">
-                                <Flex.Item className="row-left">
+                            <div className="flex-row">
+                                <div className="row-left">
                                     <img src={require('@src/public/img/组29.png')} alt="图片"/>
-                                </Flex.Item>
-                                <Flex.Item className="row-right">
+                                </div>
+                                <div className="row-right">
                                     <Flex className="floor">
                                         <div className="right-row-left">
                                             <span className="no-finish">未完成</span>
@@ -270,15 +270,15 @@ export default class Home extends Component{
                                             <span className="vip-free" style={{marginRight: '0'}}>VIP免费</span>
                                         </div>
                                     </Flex>
-                                    <Flex className="floor1">
+                                    <div className="floor1">
                                         <span className="class-teacher">未知老师</span>
                                         <span className="center-split"/>
                                         <span className="class-count">1节</span>
                                         <span className="class-price" style={{marginLeft: '.2rem'}}>¥110.00</span>
                                         <span className="class-old-price" style={{marginLeft: '.15rem'}}>¥99.00</span>
-                                    </Flex>
-                                </Flex.Item>
-                            </Flex>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="content-fifth">
@@ -346,12 +346,12 @@ export default class Home extends Component{
                             </div>
                         </div>
                         <div className="eighth-content">
-                            <Flex className="flex-row">
-                                <Flex.Item className="row-left">
+                            <div className="flex-row">
+                                <div className="row-left">
                                     <img src={require('@src/public/img/组31.png')} alt="图片"/>
-                                </Flex.Item>
-                                <Flex.Item className="row-right">
-                                    <Flex className="floor">
+                                </div>
+                                <div className="row-right">
+                                    <div className="floor">
                                         <div className="right-row-left">
                                             <span className="no-finish">未完成</span>
                                             <span className="class-span-common">贴身卫拳</span>
@@ -359,23 +359,23 @@ export default class Home extends Component{
                                         <div className="right-row-right">
                                             <span className="vip-free" style={{marginRight: '0'}}>VIP免费</span>
                                         </div>
-                                    </Flex>
-                                    <Flex className="floor1">
+                                    </div>
+                                    <div className="floor1">
                                         <span className="class-teacher">未知老师</span>
                                         <span className="center-split"/>
                                         <span className="class-count">1节</span>
                                         <span className="class-price" style={{marginLeft: '.2rem'}}>¥128.00</span>
-                                    </Flex>
-                                </Flex.Item>
-                            </Flex>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="eighth-content">
-                            <Flex className="flex-row">
-                                <Flex.Item className="row-left">
+                            <div className="flex-row">
+                                <div className="row-left">
                                     <img src={require('@src/public/img/组26.png')} alt="图片"/>
-                                </Flex.Item>
-                                <Flex.Item className="row-right">
-                                    <Flex className="floor">
+                                </div>
+                                <div className="row-right">
+                                    <div className="floor">
                                         <div className="right-row-left">
                                             <span className="no-finish">未完成</span>
                                             <span className="class-span-common">贴身桩功</span>
@@ -383,15 +383,15 @@ export default class Home extends Component{
                                         <div className="right-row-right">
                                             <span className="vip-free" style={{marginRight: '0'}}>VIP免费</span>
                                         </div>
-                                    </Flex>
-                                    <Flex className="floor1">
+                                    </div>
+                                    <div className="floor1">
                                         <span className="class-teacher">未知老师</span>
                                         <span className="center-split"/>
                                         <span className="class-count">1节</span>
                                         <span className="class-price" style={{marginLeft: '.2rem'}}>¥94.00</span>
-                                    </Flex>
-                                </Flex.Item>
-                            </Flex>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="content-fifth">

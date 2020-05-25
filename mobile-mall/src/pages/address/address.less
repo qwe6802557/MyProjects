@@ -1,0 +1,177 @@
+#address{
+    background: #F6F6F6;
+    height: 100vh;
+    .help-head{
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 .3rem;
+        position: relative;
+        .arrow-left{
+            position: absolute;
+            left: .3rem;
+            svg{
+                width: .5rem;
+                height: .5rem;
+                margin-top: .1rem;
+            }
+        }
+        span{
+            font-size:0.36rem;
+            font-weight:800;
+            color:rgba(51,51,51,1);
+            line-height:36px;
+            text-align: center;
+            flex: 1;
+            margin-bottom: 0;
+        }
+    }
+    .help-content{
+        padding: .3rem;
+        .empty{
+            font-size:0.32rem;
+            font-weight:400;
+            color:rgba(17,17,17,1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span{
+                margin: .6rem 0;
+            }
+            .empty-pic{
+                width: 2.1rem;
+                height: 2.07rem;
+                margin-top: 1.9rem;
+            }
+        }
+        .content-p{
+            font-size: .28rem;
+            padding: .3rem;
+            color:rgba(100,100,100,1);
+            background: #FFFFFF;
+            border-radius: 8px;
+            .address-title{
+                font-size:0.26rem;
+                font-weight:500;
+                color:rgba(51,51,51,1);
+                line-height:0.7rem;
+                display: flex;
+                flex-direction: row;
+                h5{
+                    font-size:0.32rem;
+                    font-weight:bold;
+                    color:rgba(51,51,51,1);
+                    line-height:0.7rem;
+                }
+                span{
+                    margin-left: .28rem;
+                }
+            }
+            p{
+                font-size:0.26rem;
+                font-weight:500;
+                color:rgba(153,153,153,1);
+                line-height:0.42rem;
+            }
+            .am-list-content{
+                font-size:0.24rem;
+                font-weight:500;
+                color:rgba(102,102,102,1);
+                line-height:0.7rem;
+            }
+            .am-list-line{
+                &::after{
+                    background-color: transparent;
+                }
+            }
+            .am-checkbox{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .am-list-item{
+                padding-left: 0;
+            }
+            .address-bottom{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .operation{
+                    display: flex;
+                    flex-direction: row;
+                }
+                .edit{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    font-size:0.24rem;
+                    margin-right: .4rem;
+                    img{
+                        width: .35rem;
+                        height: .34rem;
+                        margin-right: .1rem;
+                    }
+                }
+                .delete{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        font-size:0.24rem;
+                        img{
+                            width: .35rem;
+                            height: .34rem;
+                            margin-right: .1rem;
+                        }
+                }
+            }
+        }
+        .am-list-thumb{
+            margin-right: .15rem;
+        }
+        .content-button{
+            text-align: center;
+            padding-bottom: .3rem;
+            span{
+                width: 4.61rem;
+                height: .88rem;
+                line-height: .88rem;
+                font-size: .32rem;
+                display: inline-block;
+                background: #5599FF;
+                color: #FFFFFF;
+                border-radius: 10%;
+                background: url("../../public/img/圆角矩形 2.png") no-repeat;
+            }
+        }
+    }
+    .content-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size:0.32rem;
+        font-weight:500;
+        color:rgba(255,255,255,1);
+        .button-add{
+            width:4.6rem;
+            height:0.87rem;
+            line-height: .87rem;
+            background:rgba(85,153,255,1);
+            border-radius: 20px;
+            color: #fff;
+            text-align: center;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: .3rem;
+                height: .3rem;
+                margin-right: .15rem;
+            }
+        }
+    }
+}

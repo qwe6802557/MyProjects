@@ -1,0 +1,207 @@
+#confirmOrder{
+    background: #F6F6F6;
+    height: 100vh;
+    .help-head{
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        .head-title{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0 .3rem;
+            position: relative;
+        }
+        .head-content{
+            padding: .3rem 0;
+            .content-message{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 0 .95rem;
+                h3{
+                    font-size:0.34rem;
+                    font-weight:bold;
+                    color:rgba(51,51,51,1);
+                    margin-block-end: 0;
+                }
+                span{
+                    font-size:0.28rem;
+                    font-weight:500;
+                    color:rgba(136,136,136,1);
+                    flex: 0;
+                    margin-left: .3rem;
+                }
+            }
+            .content-bottom{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 .3rem;
+                span{
+                    font-size:0.28rem;
+                    font-weight:500;
+                    color:rgba(51,51,51,1);
+                    max-width: 5.64rem;
+                    line-height: 20px;
+                    text-align: left;
+                }
+                img{
+                    width: .26rem;
+                    height: .31rem;
+                }
+                .arrow-right{
+                    width: .15rem;
+                    height: .22rem;
+                }
+            }
+        }
+
+        .arrow-left{
+            position: absolute;
+            left: .3rem;
+            svg{
+                width: .5rem;
+                height: .5rem;
+                margin-top: .1rem;
+            }
+        }
+        span{
+            font-size:0.36rem;
+            font-weight:800;
+            color:rgba(51,51,51,1);
+            line-height:36px;
+            text-align: center;
+            flex: 1;
+            margin-bottom: 0;
+        }
+    }
+    .help-content{
+        padding: .3rem;
+        .am-list-content{
+            font-size:0.28rem;
+            font-weight:500;
+            color:rgba(51,51,51,1);
+        }
+        .am-list-extra{
+            font-size:0.26rem;
+            font-weight:500;
+            color:rgba(153,153,153,1);
+        }
+        .content-p{
+            font-size: .28rem;
+            color:rgba(100,100,100,1);
+            background: #FFFFFF;
+            border-radius: 8px;
+            p{
+                padding: .25rem;
+                line-height:.5rem;
+            }
+        }
+        .content-button{
+            text-align: center;
+            padding-bottom: .3rem;
+            span{
+                width: 4.61rem;
+                height: .88rem;
+                line-height: .88rem;
+                font-size: .32rem;
+                display: inline-block;
+                background: #5599FF;
+                color: #FFFFFF;
+                border-radius: 10%;
+                background: url("../../public/img/圆角矩形 2.png") no-repeat;
+            }
+        }
+    }
+    .my-list{
+        .list-item-extra{
+            .am-list-content{
+                display: flex;
+                flex-direction: row;
+                img{
+                    width: 2rem;
+                    height: 2rem;
+                }
+                .right-message{
+                    padding-left: .3rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .message-top{
+                    h4{
+                        font-size:0.26rem;
+                        font-weight:bold;
+                        color:rgba(51,51,51,1);
+                        max-width: 4.4rem;
+                        white-space: normal;
+                        line-height:0.48rem;
+                    }
+                }
+                .order-price{
+                    font-size:0.28rem;
+                    font-weight:500;
+                    color:rgba(237,47,47,1);
+                }
+                .order-num{
+                    font-size:0.22rem;
+                    font-weight:500;
+                    color:rgba(51,51,51,1);
+                    margin-left: .26rem;
+                }
+            }
+        }
+    }
+    .pay-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: .1rem .3rem;
+        .bar-left{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size:0.28rem;
+            font-weight:500;
+            color:rgba(102,102,102,1);
+            .am-list-content{
+                font-size:0.28rem;
+                font-weight:500;
+                color:rgba(102,102,102,1);
+            }
+        }
+        .bar-right{
+            padding-right: .3rem;
+        }
+        .am-button{
+            width: 1.99rem;
+            height: .66rem;
+            display: flex;
+            border-radius: 20px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            span{
+                font-size:0.28rem;
+                font-weight:500;
+                color:rgba(255,255,255,1);
+            }
+        }
+    }
+    .class-price{
+        font-weight:bold;
+        font-size:0.26rem;
+        line-height:0.44rem;
+        color:rgba(242,79,79,1);
+        margin-left: 0 !important;
+        margin-right: .1rem;
+    }
+}
