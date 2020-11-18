@@ -1,14 +1,104 @@
 import React, { Component } from "react";
-import { Checkbox } from 'antd-mobile';
+import {Checkbox, Toast} from 'antd-mobile';
 import './operationOther.less';
+import {reqSavePartner} from "../../api/main";
 const CheckboxItem = Checkbox.CheckboxItem;
 
 export default class Operation extends Component{
+
+    state = {
+        userName: '',
+        phone: '',
+        weChat: '',
+        proxyType: '',
+        province: false,
+        city: false,
+        area: false,
+        isRead: false,
+    };
+
+    changeName (e) {
+        this.setState({
+            userName: e.target.value
+        });
+    }
+
+    changePhone (e) {
+        this.setState({
+            phone: e.target.value
+        });
+    }
+
+    changeWechat (e) {
+        this.setState({
+            weChat: e.target.value
+        });
+    }
+
+    onChange1 (e) {
+        this.setState({
+            province: e.target.checked,
+            city: false,
+            area: false
+        });
+    }
+
+    onChange2 (e) {
+        this.setState({
+            province: false,
+            city: e.target.checked,
+            area: false
+        });
+    }
+
+    onChange3 (e) {
+        this.setState({
+            province: false,
+            area: e.target.checked,
+            city: false
+        });
+    }
+
+    changeRead (e) {
+        this.setState({
+            isRead: e.target.checked,
+        });
+    }
+
+    async handlePartner () {
+        if (!this.state.isRead){
+           Toast.info('请勾选已读协议!');
+        }
+
+        const { userName, phone, weChat } = this.state;
+        let proxyType = 0;
+        if (this.state.province){
+            proxyType = 1;
+        }
+
+        if (this.state.city){
+            proxyType = 2;
+        }
+
+        if (this.state.area){
+            proxyType = 3;
+        }
+
+        const result = await reqSavePartner({
+            userName,
+            phone,
+            weChat,
+            proxyType
+        });
+
+        console.log(result.data);
+    }
+
     render() {
         return (<div id="operationOther">
             <div className="operation-top">
                 <div className="help-head">
-                    <div className="arrow-left">
+                    <div className="arrow-left" onClick={() => this.props.history.go(-1)}>
                         ＜
                     </div>
                     <span>立即成为合伙人</span>
@@ -53,33 +143,33 @@ export default class Operation extends Component{
                     </div>
                     <div className="form-area">
                         <div className="realName">
-                            <input type="text" placeholder="请输入您的贵姓"/>
+                            <input type="text" placeholder="请输入您的贵姓" onClick={this.changeName.bind(this)}/>
                         </div>
                         <div className="realName">
-                            <input type="text" placeholder="请输入您的手机号"/>
+                            <input type="text" placeholder="请输入您的手机号" onClick={this.changePhone.bind(this)}/>
                         </div>
                         <div className="realName">
-                            <input type="text" placeholder="请输入您的微信号"/>
+                            <input type="text" placeholder="请输入您的微信号" onClick={this.changeWechat.bind(this)}/>
                         </div>
                         <div className="realName">
                             <input type="text" placeholder="代理类型"/>
                             <div className="check-box-area">
-                                <CheckboxItem onChange={() => this.onChange}>
+                                <CheckboxItem onChange={this.onChange1.bind(this)} checked={this.state.province}>
                                     省级
                                 </CheckboxItem>
-                                <CheckboxItem onChange={() => this.onChange}>
+                                <CheckboxItem onChange={this.onChange2.bind(this)} checked={this.state.city}>
                                     市级
                                 </CheckboxItem>
-                                <CheckboxItem onChange={() => this.onChange}>
+                                <CheckboxItem onChange={this.onChange3.bind(this)} checked={this.state.area}>
                                     区级
                                 </CheckboxItem>
                             </div>
                         </div>
                         <div className="confirm-read">
-                            <CheckboxItem onChange={() => this.onChange}>我已经阅读并了解<span style={{color: '#80B1FF'}}>【区域代理申请协议】</span></CheckboxItem>
+                            <CheckboxItem onChange={this.changeRead.bind(this)} checked={this.state.isRead}>我已经阅读并了解<span style={{color: '#80B1FF'}}>【区域代理申请协议】</span></CheckboxItem>
                         </div>
                         <div className="content-button">
-                            <span>立即申请</span>
+                            <span onClick={this.handlePartner.bind(this)}>立即申请</span>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Icon, Tabs, WhiteSpace, List} from 'antd-mobile';
+import {Icon, Tabs, WhiteSpace, List, Badge} from 'antd-mobile';
 import './video.less';
 
 const { Item } = List;
@@ -23,8 +23,38 @@ export default class Help extends Component{
                       onChange={(tab, index) => { console.log('onChange', index, tab); }}
                       onTabClick={(tab, index) => { console.log('onTabClick', index, tab); }}
                 >
-                    <div style={{  backgroundColor: '#F6F6F6' }}>
-
+                    <div className="word-area">
+                        <div className="each-word">
+                            <div className="word-top">
+                                <img src={require('@src/public/img/avatar.png')} alt="导师头像"/>
+                                <div className="top-right">
+                                    <div className="name-area">
+                                        <h3>李刚老师</h3>
+                                        <img src={require('@src/public/img/leader.png')} alt="导师"/>
+                                    </div>
+                                    <span>03-19 10:12</span>
+                                </div>
+                            </div>
+                            <div className="word-content">
+                                <p>在习练各种国术前，往往要练习 扎实的桩功才能有所成就。</p>
+                            </div>
+                        </div>
+                        <div className="each-word">
+                            <div className="word-top">
+                                <img src={require('@src/public/img/avatar.png')} alt="导师头像"/>
+                                <div className="top-right">
+                                    <div className="name-area">
+                                        <h3>李刚老师</h3>
+                                        <img src={require('@src/public/img/word-vip.png')} alt="导师"/>
+                                    </div>
+                                    <span>03-19 10:12</span>
+                                </div>
+                            </div>
+                            <div className="word-content">
+                                <p>在习练各种国术前，往往要练习 扎实的桩功才能有所成就。</p>
+                            </div>
+                        </div>
+                        <img src={require('@src/public/img/redBag.png')} alt="红包" className="redBag"/>
                     </div>
                     <div style={{ backgroundColor: '#ffffff'}} className="introduction">
                         <div className="introduction-top">
@@ -206,7 +236,99 @@ export default class Help extends Component{
                             </Item>
                         </List>
                     </div>
-                    <div style={{ backgroundColor: '#F6F6F6' }}>
+                    <div style={{ backgroundColor: '#F6F6F6' }} className="watch-buy">
+                        <div className="all-goods">
+                            <span>全部商品<span>10</span>件</span>
+                            <div className="enter">
+                                进入店铺
+                            </div>
+                        </div>
+                        <div className="content-fifth">
+                            <div className="eighth-content">
+                                <div className="flex-row">
+                                    <div className="row-left">
+                                        <img src={require('@src/public/img/组29.png')} alt="图片"/>
+                                    </div>
+                                    <div className="row-right">
+                                        <div className="floor">
+                                            <div className="right-row-left">
+                                                <span className="class-span-common">贴身卫拳</span>
+                                            </div>
+                                        </div>
+                                        <div className="floor1">
+                                            <span className="class-teacher">销量: </span>
+                                            <span className="center-split"/>
+                                            <span className="class-count">10万</span>
+                                        </div>
+                                        <div className="floor2">
+                                            <div className="floor2-left">
+                                                <span className="class-price" style={{marginLeft: '.2rem'}}>¥110.00</span>
+                                                <span className="class-old-price" style={{marginLeft: '.15rem'}}>¥99.00</span>
+                                            </div>
+                                            <div className="right-row-right">
+                                                <span className="class-span-try">立即购买</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="eighth-content">
+                                <div className="flex-row">
+                                    <div className="row-left">
+                                        <img src={require('@src/public/img/组29.png')} alt="图片"/>
+                                    </div>
+                                    <div className="row-right">
+                                        <div className="floor">
+                                            <div className="right-row-left">
+                                                <span className="class-span-common">贴身卫拳</span>
+                                            </div>
+                                        </div>
+                                        <div className="floor1">
+                                            <span className="class-teacher">销量: </span>
+                                            <span className="center-split"/>
+                                            <span className="class-count">10万</span>
+                                        </div>
+                                        <div className="floor2">
+                                            <div className="floor2-left">
+                                                <span className="class-price" style={{marginLeft: '.2rem'}}>¥110.00</span>
+                                                <span className="class-old-price" style={{marginLeft: '.15rem'}}>¥99.00</span>
+                                            </div>
+                                            <div className="right-row-right">
+                                                <span className="class-span-try">立即购买</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="eighth-content">
+                                <div className="flex-row">
+                                    <div className="row-left">
+                                        <img src={require('@src/public/img/组29.png')} alt="图片"/>
+                                    </div>
+                                    <div className="row-right">
+                                        <div className="floor">
+                                            <div className="right-row-left">
+                                                <span className="class-span-common">贴身卫拳</span>
+                                            </div>
+                                        </div>
+                                        <div className="floor1">
+                                            <span className="class-teacher">销量: </span>
+                                            <span className="center-split"/>
+                                            <span className="class-count">10万</span>
+                                        </div>
+                                        <div className="floor2">
+                                            <div className="floor2-left">
+                                                <span className="class-price" style={{marginLeft: '.2rem'}}>¥110.00</span>
+                                                <span className="class-old-price" style={{marginLeft: '.15rem'}}>¥99.00</span>
+                                            </div>
+                                            <div className="right-row-right">
+                                                <span className="class-span-try">立即购买</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </Tabs>
                 <WhiteSpace />
@@ -260,7 +382,7 @@ export default class Help extends Component{
             </div>
             <div className="help-bottom">
                {/* <input type="text" placeholder="请输入评论..."/>*/}
-              <div className="bottom-intro">
+              {/*<div className="bottom-intro">
                   <div className="bottom-left">
                       <div className="left-one">
                           <img src={require('@src/public/img/首 页.png')} alt="首页"/>
@@ -278,6 +400,14 @@ export default class Help extends Component{
                   <div className="bottom-right">
                       立即购买
                   </div>
+              </div>*/}
+              <div className="words-content">
+                  <input type="text" placeholder="和导师聊两句～～"/>
+                  <img src={require('@src/public/img/award.png')} alt="赏金" className="award"/>
+                  <img src={require('@src/public/img/circle.png')} alt="赏金"/>
+                  <Badge text={77} overflowCount={55}>
+                      <img src={require('@src/public/img/goods.png')} alt="点赞" className="goods"/>
+                  </Badge>
               </div>
             </div>
         </div>);

@@ -9,13 +9,13 @@
         />
       </div>
       <div class="goods-info">
-      <div class="goods-image">
-        <img :src="goodsInfo.IMAGE1" width="100%" alt="">
-      </div>
-      <div class="goods-message">
-        <div class="goods-name">{{goodsInfo.NAME}}</div>
-        <div class="goods-price">价格：¥{{goodsInfo.PRESENT_PRICE | moneyFilter}}元</div>
-      </div>
+        <div class="goods-image">
+          <img :src="goodsInfo.IMAGE1" width="100%" alt="">
+        </div>
+        <div class="goods-message">
+          <div class="goods-name">{{goodsInfo.NAME}}</div>
+          <div class="goods-price">价格：¥{{goodsInfo.PRESENT_PRICE | moneyFilter}}元</div>
+        </div>
       </div>
       <div class="goods-tabs">
         <van-tabs swipeable sticky>

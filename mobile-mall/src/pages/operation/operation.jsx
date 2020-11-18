@@ -5,7 +5,7 @@ export default class Operation extends Component{
         return (<div id="operation">
             <div className="operation-top">
                 <div className="help-head">
-                    <div className="arrow-left">
+                    <div className="arrow-left" onClick={() => this.props.history.go(-1)}>
                         ＜
                     </div>
                     <span>立即成为合伙人</span>

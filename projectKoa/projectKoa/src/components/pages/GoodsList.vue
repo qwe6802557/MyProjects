@@ -124,7 +124,7 @@
             this.categoryId=this.categoryId?this.categoryId:this.catorySubList[0].ID;
 
             this.getGoodsList();
-          },500)
+          },500);
   },
           onRefresh(){
             setTimeout(()=>{
@@ -136,7 +136,7 @@
               this.finished=false;
             },500)
           },
-           ClickgetId(index,title){
+           ClickgetId(index, title){
             this.categoryId=this.catorySubList[index].ID;
             this.goodList=[];
             this.finished=false;
@@ -145,7 +145,7 @@
         },
            getGoodsList(){
             axios({
-              url:URL.getCatorySubGoods,
+              url: URL.getCatorySubGoods,
               method:'post',
               data:{
                 catorySubId:this.categoryId,
@@ -159,7 +159,7 @@
                 this.finished=true;
               }
               this.loading=false;
-            }).catch(err=>{
+            }).catch(err => {
               console.log(err);
             })
         },

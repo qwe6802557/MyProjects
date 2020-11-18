@@ -47,6 +47,10 @@ export default class Home extends Component{
         }]
     };
 
+    buyVip () {
+        this.props.history.push('/auth/vip');
+    }
+
     render() {
 
         return (<div id="home">
@@ -489,7 +493,7 @@ export default class Home extends Component{
                     <img src={require('@src/public/img/形状 46.png')} alt="图片"/>
                     商城
                 </div>
-                <div className="bar-box" style={{marginLeft: '.2rem'}}>
+                <div className="bar-box" style={{marginLeft: '.2rem'}} onClick={this.buyVip.bind(this)}>
                     <img src={require('@src/public/img/组 26(1).png')} alt="图片" className="tab-special"/>
                     <span className="buyVip">购买VIP</span>
                 </div>

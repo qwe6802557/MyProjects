@@ -11,11 +11,17 @@
     <mapping directory="$PROJECT_DIR$/SaleApp/front" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SaleApp1/front" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/TagProject/tag-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/admin-vue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/admin-vue/my-project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/illness-front/illness-front" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/market-mall/market-mall" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mobile-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mobile-project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/react-app/front" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react-init-project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/react-mall/cus-admin/cus-admin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/react-mall/pc-mall" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/shoppingmall/koa-vue/koa-vue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/中控流量系统/control-admin" vcs="Git" />
   </component>
 </project>

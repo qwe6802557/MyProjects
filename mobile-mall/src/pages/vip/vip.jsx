@@ -5,7 +5,7 @@ export default class Vip extends Component{
         return (<div id="vip">
             <div className="operation-top">
                 <div className="help-head">
-                    <div className="arrow-left">
+                    <div className="arrow-left" onClick={() => this.props.history.go(-1)}>
                         ＜
                     </div>
                     <span>立即成为VIP</span>

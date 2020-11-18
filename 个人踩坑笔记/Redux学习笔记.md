@@ -72,11 +72,23 @@ reducer中也要引入并一一对应:
 
 这样在执行的时候只需引入方法传入值即可得到需要dispatch的对象。
 
-##### 13.readux中的三个坑:
+##### 13.redux中的三个坑:
 
 ![1583659045851](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1583659045851.png)
 
 ![1583659140227](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1583659140227.png)
 
 ![1583659271003](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1583659271003.png)
+
+###### 14. redux-thunk中间件:
+
+![1603336052372](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1603336052372.png)
+
+![1603336080574](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1603336080574.png)
+
+![1603336118776](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1603336118776.png)
+
+![1603337057288](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1603337057288.png)
+
+![1603337095962](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1603337095962.png)
 

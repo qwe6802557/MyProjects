@@ -1,9 +1,56 @@
 import React, { Component } from "react";
 import {Checkbox, Icon} from 'antd-mobile';
 import './supplier.less';
+import {reqSaveSupplier} from "../../api/main";
 const CheckboxItem = Checkbox.CheckboxItem;
 
 export default class Operation extends Component{
+
+    state = {
+        userName: '',
+        phone: '',
+        weChat: '',
+        projectName: ''
+    };
+
+    changeName (e) {
+        this.setState({
+            userName: e.target.value
+        });
+    }
+
+    changePhone (e) {
+        this.setState({
+            phone: e.target.value
+        });
+    }
+
+    changeWechat (e) {
+        this.setState({
+            weChat: e.target.value
+        });
+    }
+
+    changeProduct (e) {
+        this.setState({
+            projectName: e.target.value
+        });
+    }
+
+    async handleSupply () {
+        const { userName, phone, weChat, projectName} = this.state;
+
+        const result = await reqSaveSupplier({
+            userName,
+            phone,
+            weChat,
+            projectName,
+            terminalType: 1
+        });
+
+        console.log(result.data);
+    }
+
     render() {
         return (<div id="supplier">
             <div className="operation-top">
@@ -21,22 +68,22 @@ export default class Operation extends Component{
                     </div>
                     <div className="form-area">
                         <div className="realName">
-                            <input type="text" placeholder="请输入您的贵姓"/>
+                            <input type="text" placeholder="请输入您的贵姓" onChange={this.changeName.bind(this)}/>
                         </div>
                         <div className="realName">
-                            <input type="text" placeholder="请输入您的手机号"/>
+                            <input type="text" placeholder="请输入您的手机号" onChange={this.changePhone.bind(this)}/>
                         </div>
                         <div className="realName">
-                            <input type="text" placeholder="请输入您的微信号"/>
+                            <input type="text" placeholder="请输入您的微信号" onChange={this.changeWechat.bind(this)}/>
                         </div>
                         <div className="realName">
-                            <input type="text" placeholder="请输入项目产品"/>
+                            <input type="text" placeholder="请输入项目产品" onChange={this.changeProduct.bind(this)}/>
                         </div>
                         <div className="confirm-read">
                             <CheckboxItem onChange={() => this.onChange}>我已经阅读并了解<span style={{color: '#80B1FF'}}>【区域代理申请协议】</span></CheckboxItem>
                         </div>
                         <div className="content-button">
-                            <span>立即申请</span>
+                            <span onClick={this.handleSupply.bind(this)}>立即申请</span>
                         </div>
                     </div>
                 </div>

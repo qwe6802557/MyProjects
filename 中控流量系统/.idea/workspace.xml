@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="967e52a9-673e-43b2-8241-fb8c9bcf3c00" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/control-admin/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/control-admin/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control-admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/control-admin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control-admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/control-admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control-admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/control-admin/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control-admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/control-admin/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control-admin/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/control-admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/control-admin/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/control-admin" />
+  </component>
+  <component name="ProjectId" id="1aAhZbT96z3sJT83RQbNNKVMsrc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../docWebsite" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\中控流量系统\control-admin\src\api\sendGrid" />
+      <recent name="C:\Users\Administrator\Desktop\中控流量系统\control-admin\src\api\twilio" />
+      <recent name="C:\Users\Administrator\Desktop\中控流量系统\control-admin\src\views\sendgrid" />
+      <recent name="C:\Users\Administrator\Desktop\中控流量系统\control-admin\src\views\app" />
+      <recent name="C:\Users\Administrator\Desktop\中控流量系统\control-admin\src\views" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="967e52a9-673e-43b2-8241-fb8c9bcf3c00" name="默认更改列表" comment="" />
+      <created>1586184361710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586184361710</updated>
+      <workItem from="1586184363714" duration="123000" />
+      <workItem from="1586184494228" duration="2014000" />
+      <workItem from="1586186578254" duration="5966000" />
+      <workItem from="1586266565963" duration="10780000" />
+      <workItem from="1586346063883" duration="2291000" />
+      <workItem from="1586358117803" duration="7727000" />
+      <workItem from="1586415187037" duration="410000" />
+      <workItem from="1586538177186" duration="1379000" />
+      <workItem from="1586599052040" duration="954000" />
+      <workItem from="1586681517303" duration="16000" />
+      <workItem from="1586792137195" duration="6005000" />
+      <workItem from="1586838763232" duration="22000" />
+      <workItem from="1586937733393" duration="18656000" />
+      <workItem from="1586963837989" duration="21000" />
+      <workItem from="1587034470642" duration="300000" />
+      <workItem from="1587035191590" duration="304000" />
+      <workItem from="1587098416840" duration="12000" />
+      <workItem from="1587123715934" duration="3347000" />
+      <workItem from="1587228434365" duration="1431000" />
+      <workItem from="1587271521850" duration="586000" />
+      <workItem from="1587276886628" duration="12770000" />
+      <workItem from="1587302544091" duration="204000" />
+      <workItem from="1587302893103" duration="279000" />
+      <workItem from="1587306497689" duration="5624000" />
+      <workItem from="1587313018863" duration="340000" />
+      <workItem from="1587313397030" duration="21000" />
+      <workItem from="1587443370851" duration="5000" />
+      <workItem from="1587480906002" duration="745000" />
+      <workItem from="1587807433933" duration="1220000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1380" y="319" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586184609120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1380" y="319" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586184609120" />
+    <state x="959" y="276" key="FileChooserDialogImpl" timestamp="1587313416735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="959" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587313416735" />
+    <state x="644" y="253" width="746" height="600" key="find.popup" timestamp="1587280944211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="253" width="746" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587280944211" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1586797666738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586797666738" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/control-admin/src/views/layout/Layout.vue</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/control-admin/src/views/tiktok/task/TogetherPrivate.vue</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

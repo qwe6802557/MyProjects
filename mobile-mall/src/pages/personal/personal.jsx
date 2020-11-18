@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { List,  Icon } from 'antd-mobile';
 const Item = List.Item;
 import './personal.less';
+
 export default class Help extends Component{
 
     state = {
@@ -31,6 +32,14 @@ export default class Help extends Component{
             value: '辣条'
         }]
     };
+
+    saveUserInfo = () => {
+
+    };
+
+    componentDidMount() {
+        this.getUserInfo();
+    }
 
     render() {
         const { categoryList } = this.state;
