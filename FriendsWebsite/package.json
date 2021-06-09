@@ -19,7 +19,7 @@
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.0",
-    "normalize-url": "^5.0.0",
+    "normalize-url": "^5.3.1",
     "react-icons": "^3.9.0",
     "request": "^2.88.2",
     "uuid": "^3.4.0",
