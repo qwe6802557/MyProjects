@@ -35,7 +35,7 @@
         "fetch-default": "^1.0.9",
         "fetch-polyfill": "^0.8.2",
         "file-loader": "1.1.5",
-        "html-webpack-plugin": "2.29.0",
+        "html-webpack-plugin": "5.5.0",
         "jest": "20.0.4",
         "js-md5": "^0.7.3",
         "jsencrypt": "^3.0.0-rc.1",
